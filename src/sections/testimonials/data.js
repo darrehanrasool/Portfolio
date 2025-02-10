@@ -8,57 +8,56 @@ import Avatar7 from '../../assets/avatar7.jpg'
 
 
 const data = [
-        {
-        id: 1,
-        quote: "It's truly amazing how you did exactly what I want with the little information I gave. You'll be my go-to developer from today. Highly recommend!",
-        avatar: Avatar1,
-        name: 'Nana Ama McBrown',
-        profession: 'Actress'
-        },
-        {
-        id: 2,
-        quote: "Good job, Hajia! Right on time! I really like how the project turned out, and my customers like it as well. It was fun collaborating with you.",
-        avatar: Avatar2,
-        name: 'Ernest Achiever',
-        profession: 'Web Developer'
-        },
-        {
-        id: 3,
-        quote: "Impressive work, buddy. Highly recommend!",
-        avatar: Avatar3,
-        name: 'Daniel Vinyo',
-        profession: 'Graphic Designer'
-        },
-        {
-        id: 4,
-        quote: "Wow. You finished earlier than you said. Everything's modern and beautifully done to the T. Great profession!",
-        avatar: Avatar4,
-        name: 'Diana Ayi',
-        profession: 'Singer'
-        },
-        {
-        id: 5,
-        quote: "I like how the app turned out. You are incredible, Hajia.",
-        avatar: Avatar5,
-        name: 'Vivian Mensah',
-        profession: 'Street Photographer'
-        },
-        {
-        id: 6,
-        quote: "Best developer in the world!",
-        avatar: Avatar6,
-        name: 'Hajia Bintu',
-        profession: 'Brand Influencer'
-        },
-        {
-        id: 7,
-        quote: "Keep doing great stuff, dear! Nicely executed!",
-        avatar: Avatar7,
-        name: 'Nicki Nyarko',
-        profession: 'Makeup Artist'
-        }
-    ]
-
+    {
+      id: 1,
+      quote: "Rehan delivered exactly what I needed with minimal input. Great work!",
+      avatar: Avatar1,
+      name: "Nana Ama McBrown",
+      profession: "Actress"
+    },
+    {
+      id: 2,
+      quote: "The project turned out well, and my customers love it. Solid execution!",
+      avatar: Avatar2,
+      name: "Ernest Achiever",
+      profession: "Web Developer"
+    },
+    {
+      id: 3,
+      quote: "Impressive work. Well done!",
+      avatar: Avatar3,
+      name: "Daniel Vinyo",
+      profession: "Graphic Designer"
+    },
+    {
+      id: 4,
+      quote: "Rehan delivered earlier than expected. Clean and modern execution!",
+      avatar: Avatar4,
+      name: "Diana Ayi",
+      profession: "Singer"
+    },
+    {
+      id: 5,
+      quote: "The final result looks great. Nice job!",
+      avatar: Avatar5,
+      name: "Vivian Mensah",
+      profession: "Street Photographer"
+    },
+    {
+      id: 6,
+      quote: "Reliable and skilled developer!",
+      avatar: Avatar6,
+      name: "Hajia Bintu",
+      profession: "Brand Influencer"
+    },
+    {
+      id: 7,
+      quote: "Well-executed project. Keep it up!",
+      avatar: Avatar7,
+      name: "Nicki Nyarko",
+      profession: "Makeup Artist"
+    }
+  ];
 
 
     export default data
