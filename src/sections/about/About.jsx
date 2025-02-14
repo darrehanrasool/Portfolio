@@ -32,12 +32,12 @@ const About = () => {
             high-performance, user-centric websites and scalable solutions.
           </p>
           <p>
-            Hi, I’m Rehan from Srinagar, Kashmir — a software developer with
-            expertise in modern web technologies. Beyond development, I have a
-            strong passion for AI research, particularly in healthcare and AI assistent, where I
-            aim to leverage machine learning for impactful solutions. Let’s
-            collaborate—share your project details, and let’s build something
-            great together!
+            Hi, I’m Rehan from Srinagar, Kashmir! A passionate Software
+            Developer skilled in modern web technologies, with a deep interest
+            in AI research—especially in Healthcare AI and AI assistants. I
+            thrive on leveraging machine learning to create impactful solutions.
+            Constantly exploring new technologies to push the boundaries of
+            AI-driven innovation.
           </p>
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
