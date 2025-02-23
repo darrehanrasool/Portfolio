@@ -12,15 +12,6 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
-        image: Image1,
-        title: "Intuitive UI/UX Design",
-        desc: "Crafting sleek and user-friendly interfaces with intuitive navigation, modern aesthetics, and smooth interactions.",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 2,
         category: 'frontend',
         image: Image2,
         title: "Dynamic Frontend Engineering",
@@ -29,7 +20,7 @@ const data = [
         github: 'https://github.com/egattor'
     },
     {
-        id: 3,
+        id: 2,
         category: 'backend',
         image: Image3,
         title: "Scalable Backend Development",
@@ -38,16 +29,7 @@ const data = [
         github: 'https://github.com/egattor'
     },
     {
-        id: 4,
-        category: 'appdevelopment',
-        image: Image4,
-        title: "Cross-Platform App Development",
-        desc: "Creating seamless mobile applications for iOS and Android with optimized performance, usability, and scalability.",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 5,
+        id: 3,
         category: 'datascience',
         image: Image5,
         title: "AI-Driven Data Science Solutions",
@@ -55,7 +37,15 @@ const data = [
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
-    
+    {
+        id: 4,
+        category: 'research',
+        image: Image6, 
+        title: "Innovative Research & Development",
+        desc: "Conducting cutting-edge research in AI, cybersecurity, and healthcare to solve real-world challenges with technology.",
+        demo: 'http://egatortutorials.com',
+        github: 'https://github.com/egattor'
+    }
 ];
 
 export default data
