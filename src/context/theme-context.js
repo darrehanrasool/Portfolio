@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {createContext, useContext, useReducer, useEffect} from "react"
 import themeReducer from "./themeReducer";
 
