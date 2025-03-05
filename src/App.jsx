@@ -13,6 +13,7 @@ import Theme from './theme/Theme';
 import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react'
 
+
 const App = () => {
   const {themeState} = useThemeContext();
 
