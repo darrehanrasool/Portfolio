@@ -1,12 +1,13 @@
 import Card from '../../components/Card'
 import data from './data'
+import { FiActivity } from "react-icons/fi";
 import './services.css'
 
 const Services = () => {
   return (
     <section id="services">
-      <h2>My Expertise</h2>
-      <p>Building cutting-edge solutions across multiple domains of technology.</p>
+      <h2> <FiActivity></FiActivity> My Expertise</h2>
+      <p>Building  <span className='Rehansdesign'> cutting-edge</span> solutions across multiple domains of technology .</p>
       <div className="container services__container" data-aos="fade-up">
         {
           data.map(item => (

@@ -1,26 +1,32 @@
 /* eslint-disable no-unused-vars */
 import { SiReact, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, SiPostgresql, 
-    SiDocker, SiKubernetes, SiAmazonaws, SiPython, SiTensorflow, SiGithub, SiGit } from 'react-icons/si';
-import { FaServer, FaDatabase, FaCloud } from 'react-icons/fa';
+    SiDocker, SiKubernetes, SiAmazonaws, SiGithub, SiGit, SiGraphql, SiRedis, SiTailwindcss } from 'react-icons/si';
+import { FaServer, FaDatabase, FaCloud, FaCodeBranch } from 'react-icons/fa';
 
 const data = [
-{ id: 1, icon: <SiNextdotjs />, title: 'Modern Frontend Development', 
- desc: "Building dynamic, high-performance UIs with React, Next.js 15 and Tailwind CSS." },
+  { id: 1, icon: <SiNextdotjs />, title: 'Modern  Frontend Development', 
+    desc: "Crafting high-performance, SEO -f riendly UIs with Next.js 15, React, and Tailwind CSS." },
 
-{ id: 2, icon: <FaServer />, title: 'Backend & API Development', 
- desc: "Developing scalable APIs with Node.js, Express.js, GraphQL, PostgreSQL, and MongoDB." },
+  { id: 2, icon: <FaServer />, title: 'Backend & API Development', 
+    desc: "Building scalable REST & GraphQL APIs with Node.js, Express.js, PostgreSQL, and MongoDB." },
 
-{ id: 3, icon: <SiDocker />, title: 'DevOps & CI/CD (Currently Learning)', 
- desc: "Exploring Docker, Kubernetes, GitHub Actions and AWS for automated workflows." },
+  { id: 3, icon: <SiDocker />, title: 'DevOps & CI/CD (Currently Learning)', 
+    desc: "Implementing Docker, Kubernetes, and GitHub Actions for seamless deployments." },
 
-{ id: 4, icon: <SiPython />, title: 'AI & Data Science (Currently Learning)', 
- desc: "Learning Machine Learning with Python, Pandas, Scikit-learn, and TensorFlow." },
+  { id: 4, icon: <SiGithub />, title: 'Version Control & Collaboration', 
+    desc: "Ensuring efficient team collaboration using Git, GitHub, and automated CI/CD pipelines." },
 
-{ id: 5, icon: <SiGithub />, title: 'Version Control & Collaboration', 
- desc: "Mastering Git, GitHub, and GitHub Actions for seamless collaboration and CI/CD pipelines." },
+  { id: 5, icon: <FaCloud />, title: 'Cloud & Infrastructure (Currently Learning)', 
+    desc: "Deploying scalable applications on AWS, Vercel and Netlify for seamless hosting." },
 
-{ id: 6, icon: <FaCloud />, title: 'Cloud & Scalable Architectures (Currently Learning)', 
- desc: "Understanding AWS, DigitalOcean, and GCP for deploying scalable applications." }
+  { id: 6, icon: <SiGraphql />, title: 'API & Database Optimization', 
+    desc: "Optimizing APIs with GraphQL, PostgreSQL, and Redis for high - performance applications." },
+
+  { id: 7, icon: <SiTailwindcss />, title: 'UI/UX & Responsive Design', 
+    desc: "Creating modern, responsive, and user - friendly interfaces using Tailwind CSS and best practices." },
+
+  { id: 8, icon: <FaCodeBranch />, title: 'Healthcare Tech', 
+    desc: "Actively working on open-source projects, especially in healthcare tech, to drive impactful solutions." }
 ];
 
 export default data;

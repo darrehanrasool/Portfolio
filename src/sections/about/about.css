@@ -54,7 +54,22 @@
 .about__right .btn {
     margin-top: 2.5rem;
 }
+.Rehansdesign {
+    font-weight: bold;
+    font-size: 1em;
+    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
+    
+    /* Background Clip for Text */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
 
+    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* MEDIA QUERIES (tablets) */
@@ -76,7 +91,7 @@
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
 .about__cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     gap: 1rem;
 }
 

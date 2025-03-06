@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import HeaderImage from "../../assets/Rehan3.jpg";
+import { LuWorkflow } from "react-icons/lu";
+import { GiTalk } from "react-icons/gi";
+
 import data from "./data";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,17 +19,22 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
-        <p data-aos="fade-up">
-          Building High — performance websites & leveraging AI/ML for intelligent
-          digital solutions — let’s innovate together!
+        <h3 data-aos="fade-up">
+          {" "}
+        Dar Rehan Rasool
+        </h3>
+        <p data-aos="fade-up text">
+          “ Full Stack <span className="Rehansdesign"> MERN Developer</span> with
+          a passion for building high-performance, scalable websites and web
+          applications . Bringing businesses into the digital world let’s
+          innovate together ! ”
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">
-            Let's Talk
+            <GiTalk></GiTalk> Let's Talk
           </a>
           <a href="#portfolio" className="btn light">
-            My Work
+            <LuWorkflow></LuWorkflow> My Work
           </a>
         </div>
         <div className="header__socials">

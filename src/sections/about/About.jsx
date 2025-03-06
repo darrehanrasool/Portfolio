@@ -2,6 +2,9 @@
 import AboutImage from "../../assets/Rehan1.jpg";
 import CV from "../../assets/cv.pdf";
 import { HiDownload } from "react-icons/hi";
+import { TbUserHeart } from "react-icons/tb";
+import { LuWorkflow } from "react-icons/lu";
+
 import data from "./data";
 import Card from "../../components/Card";
 import "./about.css";
@@ -16,7 +19,9 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h2>About Me</h2>
+          <h2>
+            <TbUserHeart></TbUserHeart> About Me
+          </h2>
           <div className="about__cards">
             {data.map((item) => (
               <Card key={item.id} className="about__card">
@@ -27,18 +32,27 @@ const About = () => {
             ))}
           </div>
           <p>
-            Crafting innovative digital experiences has always been my passion.
-            With 2+ years in web development, I specialize in building
-            high-performance, user-centric websites and scalable solutions.
+            Crafting innovative digital solutions has always been my passion,
+            <span className="Rehansdesign">
+              {" "}
+              <LuWorkflow></LuWorkflow> 2+ years{" "}
+            </span>{" "}
+            in web development, I specialize in building high - performance,
+            scalable web applications that drive digital transformation.
           </p>
+
           <p>
-            Hi, I’m Rehan from Srinagar, Kashmir! A passionate Software
-            Developer skilled in modern web technologies, with a deep interest
-            in AI research—especially in Healthcare AI and AI assistants. I
-            thrive on leveraging machine learning to create impactful solutions.
-            Constantly exploring new technologies to push the boundaries of
-            AI-driven innovation.
+            Hi, I'm <span className="Rehansdesign">Rehan</span> from Srinagar,
+            Kashmir! A passionate Software Developer skilled in modern web
+            technologies, with expertise in Full-Stack Development and digital
+            business solutions. I thrive on building dynamic applications,
+            optimizing performance and Beyond web development, I’m interested in
+            AI-driven medical projects and web-based healthcare solutions. My
+            focus is on leveraging technology for impactful research and
+            improving patient care through secure and efficient digital
+            solutions.
           </p>
+
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
           </a>

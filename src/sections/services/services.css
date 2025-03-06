@@ -27,6 +27,30 @@
 .service h4 {
     margin-bottom: 0.7rem;
 }
+.Rehansdesign {
+    font-weight: bold;
+    font-size: 1em;
+    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
+    
+    /* Background Clip for Text */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+  header {
+    margin-top: 0;
+    height: 100vh;
+  }
+}
 
 
 
