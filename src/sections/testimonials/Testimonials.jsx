@@ -5,6 +5,7 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay"
+import { FiActivity } from "react-icons/fi";
 
 // import required modules
 import { Pagination } from "swiper";
@@ -18,9 +19,9 @@ import './testimonials.css'
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h2>What My Clients Say</h2>
+      <h2> <FiActivity></FiActivity> What My Clients Say</h2>
       <p>
-        These are unbiased testmonials from some of my clients
+        These are <span className='Rehansdesign'> unbiased testmonials </span>from some of my clients
       </p>
       <div className="container">
       <Swiper

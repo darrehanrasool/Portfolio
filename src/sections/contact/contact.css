@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
+    height: max-content;
 }
 
 .contact__container a {
@@ -31,4 +32,20 @@
     .contact__container {
         gap: 1.5rem;
     }
+}
+.Rehansdesign {
+    font-weight: bold;
+    font-size: 1em;
+    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
+    
+    /* Background Clip for Text */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }

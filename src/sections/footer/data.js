@@ -1,8 +1,10 @@
-import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {AiFillYoutube} from 'react-icons/ai'
+import { SiPeerlist } from "react-icons/si";
+import { FaYoutube } from "react-icons/fa";
+
+
 
 
 export const links = [
@@ -17,7 +19,9 @@ export const links = [
 export const socials = [
     {id: 1, link: 'https://github.com/Darrehan', icon: <AiFillGithub/>},
     {id: 2, link: 'https://www.linkedin.com/in/darrehanrasool/', icon: <AiFillLinkedin/>},
-    {id: 4, link: 'https://www.youtube.com/@RehansOdyssey', icon: <AiFillYoutube/>},
-    {id: 5, link: 'https://x.com/CseRehan', icon: <AiOutlineTwitter/>},
-    {id: 6, link: 'https://www.instagram.com/dar.rehan_/', icon: <AiOutlineInstagram/>}
+    {id: 4, link: 'https://peerlist.io/darrehan', icon: <SiPeerlist/>},
+    {id: 5, link: 'https://www.youtube.com/@RehansCodePeaks', icon: <FaYoutube></FaYoutube>},
+    {id: 6, link: 'https://x.com/CseRehan', icon: <AiOutlineTwitter/>}
+
+
 ]

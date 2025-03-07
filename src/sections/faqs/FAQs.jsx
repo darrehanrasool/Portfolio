@@ -13,7 +13,7 @@ const FAQs = () => {
   return (
     <section id="faqs">
       <h2>Frequently Asked Questions</h2>
-      <p>Explore common queries about my work. Click to reveal answers, or reach out via the contact section.</p>
+      <p>Explore common Queries about my work . <span className='Rehansdesign'>click</span> to reveal answers .</p>
       <div className="container faqs__container" data-aos="fade-in">
         {
           faqs.map(faq => (
