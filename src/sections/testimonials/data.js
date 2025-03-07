@@ -20,7 +20,7 @@ const data = [
       quote: "The project turned out well, and my customers love it. Solid execution!",
       avatar: Avatar2,
       name: "Ernest Achiever",
-      profession: "Web Developer"
+      profession: "Developer"
     },
     {
       id: 3,

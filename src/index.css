@@ -7,7 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+/* CSS3 variables for componets design */
 :root {
     --primary-hue: 270;
     --black-lightness: 15%;

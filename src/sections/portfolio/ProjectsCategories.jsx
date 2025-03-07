@@ -2,9 +2,11 @@ import { useState } from 'react'
 import CategoryButton from './CategoryButton'
 
 const ProjectsCategories = ({categories, onFilterProjects}) => {
+    // initially it will just pass category as "all"
     const [activeCategory, setActiveCategory] = useState('all');
 
     const changeCategoryHandler = (activeCat) => {
+        // setting the category based on state
         setActiveCategory(activeCat);
         onFilterProjects(activeCat);
     }

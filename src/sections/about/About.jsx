@@ -54,7 +54,7 @@ const About = () => {
           </p>
 
           <a href={CV} download className="btn primary">
-            Download CV <HiDownload />
+            Download Resume  <HiDownload />
           </a>
         </div>
       </div>
