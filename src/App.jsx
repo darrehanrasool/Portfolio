@@ -12,6 +12,7 @@ import FloatingNav from './sections/floating-nav/FloatingNav';
 import Theme from './theme/Theme';
 import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react' 
+import Certification from './sections/certicication/Certification';
 
 
 
@@ -61,6 +62,7 @@ const App = () => {
         <Portfolio/>
         <Testimonials/>
         <FAQs/>
+        <Certification></Certification>
         <Contact/>
         <Footer/>
         <Theme/>

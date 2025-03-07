@@ -1,0 +1,97 @@
+import { FaReact, FaNodeJs, FaShoppingCart, FaDatabase, FaBlog, FaCss3Alt, FaDev, FaLaptopCode, FaCloud } from "react-icons/fa";
+
+// Array of certifications
+const certificationsData = [
+  {
+    id: 1,
+    title: "React Development",
+    desc: "Hands-on experience in building dynamic and interactive web applications using React, state management, hooks, and reusable components.",
+    pdf: "path/to/react-development-certificate.pdf",
+    months: 2,
+    hours: 80,
+    icon: <FaReact />,
+  },
+  {
+    id: 2,
+    title: "Portfolio Development",
+    desc: "Developed a professional portfolio showcasing skills in React, Next.js, and Tailwind CSS, emphasizing performance optimization and modern UI/UX design.",
+    pdf: "path/to/portfolio-development-certificate.pdf",
+    months: 1.5,
+    hours: 60,
+    icon: <FaLaptopCode />,
+  },
+  {
+    id: 3,
+    title: "Blog Development",
+    desc: "Built a fully functional and SEO-optimized blog platform with Next.js, featuring Markdown support, dynamic content, and efficient routing.",
+    pdf: "path/to/blog-development-certificate.pdf",
+    months: 1.75,
+    hours: 70,
+    icon: <FaBlog />,
+  },
+  {
+    id: 4,
+    title: "Ecommerce Development",
+    desc: "Designed and developed a scalable e-commerce platform with React, Redux, payment gateway integration, and real-time order tracking.",
+    pdf: "path/to/ecommerce-development-certificate.pdf",
+    months: 1.25,
+    hours: 50,
+    icon: <FaShoppingCart />,
+  },
+  {
+    id: 5,
+    title: "Next.js Development",
+    desc: "Specialized in advanced Next.js concepts including SSR, ISR, static site generation, API routes, and performance optimizations.",
+    pdf: "path/to/nextjs-development-certificate.pdf",
+    months: 2.5,
+    hours: 100,
+    icon: <FaReact />,
+  },
+  {
+    id: 6,
+    title: "Databases Design",
+    desc: "Gained expertise in designing, structuring, and optimizing relational (SQL) and NoSQL databases for scalable applications.",
+    pdf: "path/to/databases-design-certificate.pdf",
+    months: 2,
+    hours: 80,
+    icon: <FaDatabase />,
+  },
+  {
+    id: 7,
+    title: "Fullstack Development",
+    desc: "Developed robust full-stack applications using the MERN stack, implementing authentication, RESTful APIs, and microservices architecture.",
+    pdf: "path/to/fullstack-development-certificate.pdf",
+    months: 2.25,
+    hours: 90,
+    icon: <FaDev />,
+  },
+  {
+    id: 8,
+    title: "Node.js Development",
+    desc: "Built scalable backend applications with Node.js and Express, integrating authentication, database management, and cloud deployments.",
+    pdf: "path/to/nodejs-development-certificate.pdf",
+    months: 3,
+    hours: 120,
+    icon: <FaNodeJs />,
+  },
+  {
+    id: 9,
+    title: "Frontend Development",
+    desc: "Mastered advanced frontend technologies including TypeScript, Tailwind CSS, and performance-driven UI optimizations.",
+    pdf: "path/to/frontend-development-certificate.pdf",
+    months: 1.5,
+    hours: 60,
+    icon: <FaCss3Alt />,
+  },
+  {
+    id: 10,
+    title: "IBM DevOps and Software Engineering",
+    desc: "Comprehensive training in CI/CD pipelines, Docker, Kubernetes, cloud automation, and scalable software engineering practices.",
+    pdf: "path/to/ibm-devops-certificate.pdf",
+    months: 4,
+    hours: 160,
+    icon: <FaCloud />,
+  }
+];
+
+export default certificationsData;

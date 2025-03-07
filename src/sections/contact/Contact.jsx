@@ -1,10 +1,11 @@
 import contacts from './data'
 import './contact.css'
+import { FiActivity } from "react-icons/fi";
 
 const Contact = () => {
   return (
     <section id="contact">
-      <h2>Get In Touch</h2>
+      <h2> <FiActivity></FiActivity> Get In Touch</h2>
       <p>
         Send me a <span className='Rehansdesign'> Message</span> via any of the Links below !
       </p>
