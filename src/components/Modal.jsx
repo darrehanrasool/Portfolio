@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Card from "./Card"
 import { useModalContext } from "../context/modal-context"
 import './modal.css'
-
+// theme customisation model
 
 
 const Modal = ({className, children}) => {
