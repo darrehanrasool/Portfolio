@@ -85,7 +85,7 @@ const certificationsData = [
   },
   {
     id: 10,
-    title: "IBM DevOps and Software Engineering",
+    title: "IBM DevOps ",
     desc: "Comprehensive training in CI/CD pipelines, Docker, Kubernetes, cloud automation, and scalable software engineering practices.",
     pdf: "path/to/ibm-devops-certificate.pdf",
     months: 4,
