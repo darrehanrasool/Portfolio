@@ -4,7 +4,6 @@ import CV from "../../assets/cv.pdf";
 import { HiDownload } from "react-icons/hi";
 import { TbUserHeart } from "react-icons/tb";
 import { LuWorkflow } from "react-icons/lu";
-
 import data from "./data";
 import Card from "../../components/Card";
 import "./about.css";
