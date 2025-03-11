@@ -18,8 +18,8 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h2>
-            <TbUserHeart></TbUserHeart> About Me
+          <h2 className="about-header">
+            <TbUserHeart></TbUserHeart> About me
           </h2>
           <div className="about__cards">
             {data.map((item) => (
