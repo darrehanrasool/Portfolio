@@ -86,7 +86,7 @@ header {
 /* Adding a hover animation with a slight 3D effect */
 .header__profile:hover {
   transform: scale(1.08) rotate(1deg);
-  box-shadow: 0px 10px 25px rgba(255, 30, 187, 0.5);
+  box-shadow: 0px 10px 25px rgba(86, 66, 80, 0.5);
 }
 
 /* Glow effect intensifies on hover */
