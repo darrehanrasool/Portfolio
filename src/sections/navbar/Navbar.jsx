@@ -1,4 +1,4 @@
-import Logo from '../../assets/Header.jpg'
+import Logo from '../../assets/Rehan/Rehan3.jpg'
 import data from './data'
 import {IoIosColorPalette} from 'react-icons/io'
 import { useModalContext } from '../../context/modal-context'

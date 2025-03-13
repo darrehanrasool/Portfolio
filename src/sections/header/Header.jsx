@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HeaderImage from "../../assets/Header.jpg";
+import HeaderImage from "../../assets/Rehan/Rehan3.jpg";
 import { LuWorkflow } from "react-icons/lu";
 import { GiTalk } from "react-icons/gi";
 
