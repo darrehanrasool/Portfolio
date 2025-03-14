@@ -73,3 +73,46 @@
         gap: 1.2rem;
     }
 }
+
+/* Rehan Design website in free time  */
+/* Description Text Alignment */
+.service__details p {
+    text-align: left; /* Ensure text is left-aligned */
+    margin: 0.5rem 0; /* Add some spacing between paragraphs */
+    line-height: 1.6; /* Improve readability */
+    word-wrap: break-word; /* Prevent long words from overflowing */
+    white-space: pre-line; /* Preserve line breaks */
+  }
+  
+  /* Card Layout Adjustments */
+  .card.service {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem; /* Add padding for better spacing */
+    border-radius: var(--border-radius-3); /* Ensure rounded corners */
+    background: var(--color-white); /* Ensure background is consistent */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .services__container {
+      gap: 1.5rem;
+    }
+  
+    .card.service {
+      padding: 1rem; /* Adjust padding for tablets */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .services__container {
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+    }
+  
+    .card.service {
+      padding: 1rem; /* Adjust padding for mobile */
+    }
+  }
