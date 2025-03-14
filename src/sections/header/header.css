@@ -46,27 +46,13 @@ header {
 /* Rehan Design Webste  */
 .header__profile {
   width: 18rem;
-  height: 22rem;
+  height: 18rem;
   border-radius: 2rem 2rem 1rem 1rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   animation: floaty 3s infinite ease-in-out; /* Continuous movement */
-}
-
-/* Adding a subtle glowing effect */
-.header__profile::before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -10%;
-  width: 120%;
-  height: 120%;
-  background: radial-gradient(circle, rgba(172, 3, 127, 0.4), transparent);
-  filter: blur(10px);
-  opacity: 0.6; /* Glow is always slightly visible */
-  animation: glowEffect 3s infinite ease-in-out; /* Continuous glowing effect */
 }
 
 /* Adding a continuous floating animation */
@@ -86,7 +72,7 @@ header {
 /* Adding a hover animation with a slight 3D effect */
 .header__profile:hover {
   transform: scale(1.08) rotate(1deg);
-  box-shadow: 0px 10px 25px rgba(86, 66, 80, 0.5);
+  box-shadow: 0px 10px 25px rgba(117, 76, 104, 0.5);
 }
 
 /* Glow effect intensifies on hover */
@@ -157,5 +143,123 @@ header {
 
   .header__socials {
     display: none;
+  }
+}
+
+/* Rehan Design During Free Time */
+
+/* Profile Image Container */
+.header__profile {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%; /* Perfect circle for the profile image */
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  animation: floaty 3s infinite ease-in-out;
+}
+
+/* Floating Animation */
+@keyframes floaty {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Outer Glow Effect (Outside the Image) */
+.header__profile::after {
+  content: "";
+  position: absolute;
+  top: -10px; /* Position outside the image */
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(219, 72, 216, 0.4), rgba(168, 54, 216, 0.3), rgba(207, 18, 157, 0.2), transparent 70%);
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  pointer-events: none;
+  z-index: -1; /* Ensure it stays behind the image */
+}
+
+.header__profile:hover::after {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Ensure Image Quality */
+.header__profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 50%; /* Match the container's border radius */
+}
+
+/* H2 (Name) Underline Effect */
+.header__container h3 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header__container h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px; /* Thicker line for 3D effect */
+  background: linear-gradient(90deg, #db48d8, #a836d8, #cf129d);
+  box-shadow: 0 2px 10px rgba(219, 72, 216, 0.6), 0 2px 20px rgba(168, 54, 216, 0.6), 0 2px 30px rgba(207, 18, 157, 0.6);
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.header__container h3:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.header__container h3:not(:hover)::after {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .header__profile {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .header__container h3::after {
+    height: 2px; /* Thinner line for smaller screens */
+  }
+}
+
+/* Paragraph Styling */
+.header__container p {
+  width: 35rem; /* Adjust width as needed */
+  text-align: left; /* Align text to the left */
+  margin: 0.6rem 0 2rem;
+  line-height: 1.6; /* Improve readability */
+  font-size: 1.1rem; /* Adjust font size for better fit */
+  white-space: pre-line; /* Preserve line breaks */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .header__container p {
+    width: 90%; /* Adjust width for tablets */
+    font-size: 1rem; /* Slightly smaller font for tablets */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__container p {
+    width: 100%; /* Full width for mobile devices */
+    font-size: 0.9rem; /* Smaller font for mobile */
   }
 }
