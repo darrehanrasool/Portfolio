@@ -8,6 +8,6 @@ export const primaryColors = [
 ]
 
 export const backgroundColors = [
-    {className: 'bg-2'},
-    {className: 'bg-1'}
+    {className: 'bg-1'},
+    {className: 'bg-2'}
 ]

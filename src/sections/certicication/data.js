@@ -1,4 +1,14 @@
-import { FaReact, FaNodeJs, FaShoppingCart, FaDatabase, FaBlog, FaCss3Alt, FaDev, FaLaptopCode, FaCloud } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaShoppingCart,
+  FaDatabase,
+  FaBlog,
+  FaCss3Alt,
+  FaDev,
+  FaLaptopCode,
+  FaCloud,
+} from "react-icons/fa";
 
 // Array of certifications
 const certificationsData = [
@@ -59,7 +69,7 @@ const certificationsData = [
   {
     id: 7,
     title: "Fullstack Development",
-    desc: "Developed robust full-stack applications using the MERN stack, implementing authentication, RESTful APIs, and microservices architecture.",
+    desc: "Tech Stack: HTML5, CSS3, JavaScript (ES6), React.js, Node.js, Express.js, Bootstrap, Flexbox, CSS Grid, Git, GitHub, Unix Command Line, RESTful APIs, SQL, PostgreSQL, EJS, MongoDB, Heroku, bcrypt, OAuth 2.0, Web3, Blockchain, Internet Computer, Motoko, ERC-20, ERC-721, NFTs.",
     pdf: "path/to/fullstack-development-certificate.pdf",
     months: 2.25,
     hours: 90,
@@ -91,7 +101,7 @@ const certificationsData = [
     months: 4,
     hours: 160,
     icon: <FaCloud />,
-  }
+  },
 ];
 
 export default certificationsData;
