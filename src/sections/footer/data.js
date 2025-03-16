@@ -20,7 +20,7 @@ export const socials = [
     {id: 1, link: 'https://github.com/Darrehan', icon: <AiFillGithub/>},
     {id: 2, link: 'https://www.linkedin.com/in/darrehanrasool/', icon: <AiFillLinkedin/>},
     {id: 4, link: 'https://peerlist.io/darrehan', icon: <SiPeerlist/>},
-    {id: 5, link: 'https://www.youtube.com/@RehansCodePeaks', icon: <FaYoutube></FaYoutube>},
+    {id: 5, link: 'https://www.youtube.com/@RehansQuest', icon: <FaYoutube></FaYoutube>},
     {id: 6, link: 'https://x.com/CseRehan', icon: <AiOutlineTwitter/>}
 
 

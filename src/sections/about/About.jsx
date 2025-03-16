@@ -47,9 +47,7 @@ const About = () => {
             business solutions. I thrive on building dynamic applications,
             optimizing performance and Beyond web development, I’m interested in
             AI-driven medical projects and web-based healthcare solutions. My
-            focus is on leveraging technology for impactful research and
-            improving patient care through secure and efficient digital
-            solutions.
+            focus is on leveraging technology for impactful research .
           </p>
 
           <a href={CV} download className="btn primary">

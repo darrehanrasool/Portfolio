@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import HeaderImage from "../../assets/Rehan/Youtube.jpg";
 import { LuWorkflow } from "react-icons/lu";
-import { GiTalk } from "react-icons/gi";
+import { IoChatbox } from "react-icons/io5";
 
 import data from "./data";
 import AOS from "aos";
@@ -28,7 +28,7 @@ const Header = () => {
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">
-            <GiTalk></GiTalk> Let's Talk
+            <IoChatbox></IoChatbox> Let's Talk
           </a>
           <a href="#portfolio" className="btn light">
             <LuWorkflow></LuWorkflow> My Work
