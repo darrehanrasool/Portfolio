@@ -14,9 +14,6 @@ import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react' 
 import Certification from './sections/certicication/Certification';
 
-
-
-
 const App = () => {
   const {themeState} = useThemeContext();
 
@@ -62,7 +59,7 @@ const App = () => {
         <Portfolio/>
         <Testimonials/>
         <FAQs/>
-        <Certification></Certification>
+        <Certification/>
         <Contact/>
         <Footer/>
         <Theme/>
