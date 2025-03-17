@@ -45,7 +45,7 @@ const About = () => {
             Kashmir! A passionate Software Developer skilled in modern web
             technologies, with expertise in Full-Stack Development and digital
             business solutions. I thrive on building dynamic applications,
-            optimizing performance and Beyond web development, I’m interested in
+            optimizing performance and Beyond web development, I'm interested in
             AI-driven medical projects and web-based healthcare solutions. My
             focus is on leveraging technology for impactful research .
           </p>
