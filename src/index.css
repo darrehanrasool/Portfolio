@@ -239,9 +239,9 @@ img {
     h1 {
         font-size: 2rem;
     }
+/* cat animation by rehan  */
+
 }
-
-
 
 
 
@@ -270,4 +270,5 @@ img {
     section > p {
         width: var(--container-width-md);
     }
+
 }

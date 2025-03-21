@@ -48,8 +48,8 @@ const App = () => {
     return () => clearInterval(checkYPosition);
   }, [siteYPostion])
 
-  
 
+  
   return (
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <Navbar/>
