@@ -11,7 +11,7 @@ import FloatingNav from './sections/floating-nav/FloatingNav';
 import Theme from './theme/Theme';
 import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react' 
-import Certification from './sections/certicication/Certification';
+import Certification from './sections/certification/Certification';
 
 const App = () => {
   const {themeState} = useThemeContext();

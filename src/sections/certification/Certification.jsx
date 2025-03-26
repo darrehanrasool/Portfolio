@@ -1,6 +1,6 @@
 import React from "react";
 import { FiActivity } from "react-icons/fi";
-import Card from '../../components/Card'
+import Card from '../../components/Card.jsx'
 import  certificationsData from "./data.js"
 
 
