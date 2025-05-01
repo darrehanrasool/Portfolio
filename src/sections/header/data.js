@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { SiPeerlist } from "react-icons/si";
 import { FaBlog, FaProductHunt } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
 
 const data = [
   { id: 1, link: "https://github.com/Darrehan", icon: <AiFillGithub /> },
@@ -33,6 +34,7 @@ const data = [
     link: "https://www.producthunt.com/@darrehan",
     icon: <FaProductHunt />,
   },
+  { id: 9, link: "https://www.threads.net/@dar.rehan_", icon: <FaThreads /> },
 ];
 
 export default data;
