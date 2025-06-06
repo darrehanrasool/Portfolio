@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import AboutImage from "../../assets/Rehan/Rehan1.jpg";
+import AboutImage from "../../assets/Rehan/rehan6.png";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import { TbUserHeart } from "react-icons/tb";
@@ -51,7 +51,7 @@ const About = () => {
           </p>
 
           <a href={CV} download className="btn primary">
-            Download Resume  <HiDownload />
+            Download Resume <HiDownload />
           </a>
         </div>
       </div>
