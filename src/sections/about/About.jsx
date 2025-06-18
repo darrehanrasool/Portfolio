@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import AboutImage from "../../assets/Rehan/rehan6.png";
+import AboutImage from "../../assets/Rehan/Rehan1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import { TbUserHeart } from "react-icons/tb";
