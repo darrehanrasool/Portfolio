@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: 5,
-    link: "https://www.facebook.com/yourprofile", // Replace with actual Facebook link
+    link: "https://www.facebook.com/dar.rehan.rasool/", // Replace with actual Facebook link
     icon: <AiFillFacebook />,
   },
   {
