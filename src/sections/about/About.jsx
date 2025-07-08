@@ -32,7 +32,7 @@ const About = () => {
           <p>
             <span className="Rehansdesign">
               " In the silence of focused creation , complex systems become
-              clear ®️ "
+              clear "
             </span>{" "}
             🔜 This philosophy guides my approach to software engineering. With
             <span className="Rehansdesign">

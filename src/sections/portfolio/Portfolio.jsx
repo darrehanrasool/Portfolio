@@ -29,9 +29,9 @@ const Portfolio = () => {
         <FiActivity></FiActivity> Recent Projects ➿
       </h2>
       <p>
-        Use
+        use
         <span className="Rehansdesign"> toggle </span>between different
-        <span className="Rehansdesign"> categories ®️ </span>
+        <span className="Rehansdesign"> categories</span>
       </p>
 
       <div className="container portfolio__container">

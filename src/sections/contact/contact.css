@@ -1,6 +1,6 @@
 /* Existing Contact Styles - Preserved */
 .contact__container {
-  width: fit-content;
+  /* width: fit-content; */
   display: flex;
   justify-content: center;
   gap: 3rem;

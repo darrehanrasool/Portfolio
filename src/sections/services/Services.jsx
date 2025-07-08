@@ -12,7 +12,7 @@ const Services = () => {
       </h2>
       <p>
         Building <span className="Rehansdesign"> cutting-edge</span> solutions
-        across multiple domains of technology ®️{" "}
+        across multiple domains of technology{" "}
       </p>
       <div className="container services__container" data-aos="fade-up">
         {data.map((item) => (

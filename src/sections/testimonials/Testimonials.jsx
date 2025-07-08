@@ -19,11 +19,10 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2>
         {" "}
-        <FiActivity></FiActivity> What My Clients Say ➿{" "}
+        <FiActivity></FiActivity> What My Clients Say{" "}
       </h2>
       <p>
-        These are{" "}
-        <span className="Rehansdesign"> unbiased ♾️ testmonials </span>
+        These are unbiased <span className="Rehansdesign"> testmonials </span>
         from some of my clients
       </p>
       <div className="container">
