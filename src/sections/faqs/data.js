@@ -7,7 +7,7 @@ const data = [
   },
   {
     id: 2,
-    question: "Describe your experience with remote collaboration tools",
+    question: "Describe your experience with remote collaboration tools?",
     answer:
       "I'm proficient with GitHub/GitLab for version control, Jira for task tracking, Slack/Zoom for communication, and Figma for design collaboration in distributed teams.",
   },
@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 6,
-    question: "Describe your experience with cross-functional teams",
+    question: "Describe your experience with cross-functional teams?",
     answer:
       "I've successfully collaborated with product managers, designers, and QA engineers using Scrum ceremonies, user story mapping, and iterative feedback loops to deliver features.",
   },
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 10,
-    question: "Describe a challenging technical problem you solved",
+    question: "Describe a challenging technical problem you solved?",
     answer:
       "I optimized an API endpoint reducing response time from 2s to 200ms by analyzing database queries, implementing caching, and restructuring inefficient algorithms.",
   },
@@ -79,21 +79,9 @@ const data = [
   },
   {
     id: 14,
-    question: "Describe your ideal development environment setup",
+    question: "Describe your ideal development environment setup?",
     answer:
       "Linux/macOS with Docker containers, VS Code with essential extensions, CLI tools for productivity, multiple monitor setup, and reliable high-speed internet.",
-  },
-  {
-    id: 15,
-    question: "How do you handle production incidents?",
-    answer:
-      "I follow incident response protocols: triage severity, communicate status, rollback if needed, root cause analysis, and implement preventive measures post-resolution.",
-  },
-  {
-    id: 16,
-    question: "What non-technical skills make you an effective developer?",
-    answer:
-      "Active listening, clear written communication, business context understanding, mentorship ability, and stakeholder expectation management.",
   },
 ];
 
