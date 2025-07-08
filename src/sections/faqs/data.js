@@ -1,87 +1,123 @@
 const data = [
   {
     id: 1,
-    question: "How do you handle tight deadlines or pressure situations?",
+    question: "How ensure project deadlines are met? 🗯️",
     answer:
-      "I prioritize tasks using Agile methodologies, break work into manageable chunks, and maintain clear communication with stakeholders about progress and potential roadblocks.",
+      "I break tasks into weekly milestones with buffers. Use Agile tools like Jira for tracking. Daily standups keep everyone aligned on progress.",
   },
   {
     id: 2,
-    question: "Describe your experience with remote collaboration tools?",
+    question: "Can you work with legacy systems? 🗯️",
     answer:
-      "I'm proficient with GitHub/GitLab for version control, Jira for task tracking, Slack/Zoom for communication, and Figma for design collaboration in distributed teams.",
+      "Absolutely. I start by documenting existing flows. Gradually refactor with test coverage. Respect the system's historical decisions while improving.",
   },
   {
     id: 3,
-    question: "How do you approach debugging complex issues?",
+    question: "Handle frequent requirement changes how? 🗯️",
     answer:
-      "I systematically isolate the problem using logging and debugging tools, reproduce the issue in a controlled environment, and verify fixes with unit tests before deployment.",
+      "I maintain modular code architecture for flexibility. Set clear change request protocols. Communicate impacts transparently before implementing shifts.",
   },
   {
     id: 4,
-    question: "What's your strategy for learning a new codebase?",
+    question: "Your UI/UX feedback approach? 🗯️",
     answer:
-      "I start by reviewing documentation, tracing main execution flows, examining test cases, and making small controlled changes to understand dependencies before major contributions.",
+      "I implement A/B testing for major changes. Prioritize accessibility compliance. Validate with real user testing data before finalizing.",
   },
   {
     id: 5,
-    question: "How do you ensure code quality in team projects?",
+    question: "Reduce API latency strategies? 🗯️",
     answer:
-      "I enforce code reviews, implement CI/CD pipelines with linting and testing, document architectural decisions, and advocate for consistent coding standards across the team.",
+      "I implement Redis caching for frequent queries. Optimize database indexes. Use compression for large payloads. Monitor with APM tools.",
   },
   {
     id: 6,
-    question: "Describe your experience with cross-functional teams?",
+    question: "MERN security best practices? 🗯️",
     answer:
-      "I've successfully collaborated with product managers, designers, and QA engineers using Scrum ceremonies, user story mapping, and iterative feedback loops to deliver features.",
+      "I sanitize all user inputs rigorously. Implement JWT rotation and HTTPS. Conduct regular dependency vulnerability scans. Rate-limit sensitive endpoints.",
   },
   {
     id: 7,
-    question: "How do you handle disagreements about technical approaches?",
+    question: "How learned MERN stack? 🗯️",
     answer:
-      "I present data-driven arguments, consider trade-offs objectively, and seek consensus through constructive discussion while respecting team decisions once made.",
+      "Through Coursera/udemy courses initially. Built 10+ practice projects. College labs provided structured foundation. Still learning new patterns daily.",
   },
   {
     id: 8,
-    question: "What's your process for estimating task durations?",
+    question: "Favorite BTech project why? 🗯️",
     answer:
-      "I break tasks into sub-components, account for research/testing/deployment, add buffer time for unknowns, and provide optimistic/pessimistic ranges rather than single-point estimates.",
+      "Medicinal plant analyzer - my first full-stack AI project. Combined CNN models with React frontend. Won college tech fest recognition.",
   },
   {
     id: 9,
-    question: "How do you stay productive when working remotely?",
+    question: "Why passionate about Data Science? 🗯️",
     answer:
-      "I maintain structured work hours, use time-blocking techniques, minimize distractions with focus tools, and schedule regular check-ins to stay aligned with the team.",
+      "Fascinated by deriving insights from chaos. Love the math-meets-code duality. Especially interested in healthcare applications for AI/ML.",
   },
   {
     id: 10,
-    question: "Describe a challenging technical problem you solved?",
+    question: "Daily skill growth routine? 🗯️",
     answer:
-      "I optimized an API endpoint reducing response time from 2s to 200ms by analyzing database queries, implementing caching, and restructuring inefficient algorithms.",
+      "Morning: Leetcode/DSA practice sessions. Afternoons: Project development time. Evenings: Research papers/tech blogs. Weekends: Hackathons.",
   },
   {
     id: 11,
-    question: "How do you balance technical debt with new feature development?",
+    question: "Debugging MERN apps how? 🗯️",
     answer:
-      "I advocate for allocating 20-30% of each sprint to debt reduction, prioritize high-impact refactors, and document technical debt in a shared backlog for visibility.",
+      "Frontend: Chrome DevTools + React Profiler. Backend: Postman + Node debugger. Database: Explain queries + Mongoose debug mode.",
   },
   {
     id: 12,
-    question: "What metrics do you track to measure code performance?",
+    question: "Database selection criteria what? 🗯️",
     answer:
-      "I monitor latency percentiles, error rates, memory usage, test coverage, and build times, setting alerts for deviations from baseline performance thresholds.",
+      "MongoDB for rapid prototyping needs. PostgreSQL for complex transactions. Redis for caching. Choose based on query patterns.",
   },
   {
     id: 13,
-    question: "How do you approach knowledge sharing in a team?",
+    question: "Resolve team conflicts how? 🗯️",
     answer:
-      "I conduct brown-bag sessions, maintain up-to-date documentation, create runbooks for complex systems, and pair program to spread domain knowledge.",
+      "Listen actively to all perspectives. Present data-driven arguments neutrally. Seek solutions aligning with project KPIs. Document decisions.",
   },
   {
     id: 14,
-    question: "Describe your ideal development environment setup?",
+    question: "Biggest college lesson learned? 🗯️",
     answer:
-      "Linux/macOS with Docker containers, VS Code with essential extensions, CLI tools for productivity, multiple monitor setup, and reliable high-speed internet.",
+      "User testing reveals unexpected edge cases. Documentation saves future headaches. Teamwork amplifies individual strengths. Fail fast, learn faster.",
+  },
+  {
+    id: 15,
+    question: "Stay tech-updated how? 🗯️",
+    answer:
+      "Hacker News for industry trends. Official docs for depth. Tech Twitter for debates. Conference recordings for emerging patterns.",
+  },
+  {
+    id: 16,
+    question: "Work location preference? 🗯️",
+    answer:
+      "I'm fully flexible - remote, onsite or hybrid. Remote for deep work phases. Onsite for collaborative sprints. Adapt to team needs.",
+  },
+  {
+    id: 17,
+    question: "Toughest coding challenge solved? 🗯️",
+    answer:
+      "Implemented offline-first PWA for HerbEsentia. Service Workers with cache strategies. Sync conflicts resolution. Works in low-connectivity areas.",
+  },
+  {
+    id: 18,
+    question: "Essential dev tools list? 🗯️",
+    answer:
+      "VS Code with GitLens. Postman for API workflows. Docker for environments. Notion for documentation. Linux terminal daily.",
+  },
+  {
+    id: 19,
+    question: "After BTech plans what? 🗯️",
+    answer:
+      "Gain industry experience first. Specialize via MTech in AI/ML. Contribute to open-source. Eventually mentor newcomers to tech.",
+  },
+  {
+    id: 20,
+    question: "Advice for new coders? 🗯️",
+    answer:
+      "Build projects over tutorials. Learn git immediately. Read code daily. Ask questions fearlessly. Specialize after exploring broadly.",
   },
 ];
 

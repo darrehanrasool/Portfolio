@@ -1,4 +1,4 @@
-/* Existing Contact Styles */
+/* Existing Contact Styles - Preserved */
 .contact__container {
   width: fit-content;
   display: flex;
@@ -18,16 +18,37 @@
   border: 2px solid transparent;
   border-radius: var(--border-radius-1);
   transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact__container a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: 0.6s;
 }
 
 .contact__container a:hover {
   background: transparent;
   border-color: var(--color-primary);
   color: var(--color-primary);
-  transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem) scale(1.05);
 }
 
-/* New Store Info Styles */
+.contact__container a:hover::before {
+  transform: translateX(100%);
+}
+
+/* New Store Info Styles - Enhanced */
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -42,12 +63,43 @@
   border-radius: var(--border-radius-1);
   padding: 1.5rem;
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.store-info::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(168, 54, 216, 0.1) 0%,
+    rgba(207, 18, 157, 0) 50%,
+    rgba(219, 72, 216, 0.1) 100%
+  );
+  transform: rotate(30deg);
+  animation: shine 6s infinite linear;
+  z-index: 0;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(30deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(30deg);
+  }
 }
 
 .store-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .store-meta {
@@ -56,22 +108,41 @@
   gap: 0.8rem;
   margin-bottom: 1.5rem;
   color: var(--color-dark);
+  position: relative;
+  z-index: 1;
 }
 
 .store-meta p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.store-meta p:hover {
+  transform: translateX(5px);
 }
 
 .store-meta a {
   color: var(--color-primary);
   text-decoration: none;
   transition: var(--transition);
+  position: relative;
 }
 
-.store-meta a:hover {
-  text-decoration: underline;
+.store-meta a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.store-meta a:hover::after {
+  width: 100%;
 }
 
 .store-map {
@@ -81,6 +152,8 @@
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   transition: var(--transition);
+  position: relative;
+  z-index: 1;
 }
 
 .store-map:hover {
@@ -88,7 +161,7 @@
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
 }
 
-/* Text Gradient (Existing) */
+/* Text Gradient (Enhanced) */
 .Rehansdesign {
   font-weight: bold;
   font-size: 1em;
@@ -99,6 +172,48 @@
   text-transform: lowercase;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  display: inline-block;
+}
+
+.Rehansdesign::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.Rehansdesign:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Connection Message */
+.connection-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1000;
+  text-align: center;
+  max-width: 90%;
+}
+
+.connection-message.visible {
+  opacity: 1;
 }
 
 /* MEDIA QUERIES */
@@ -133,5 +248,11 @@
 
   .store-map {
     height: 250px;
+  }
+
+  .connection-message {
+    width: 90%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
   }
 }

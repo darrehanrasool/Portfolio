@@ -7,11 +7,11 @@ export default function Certification() {
   return (
     <section id="certification">
       <h2>
-        <FiActivity /> Certifications
+        <FiActivity /> Certifications ➿
       </h2>
       <p>
-        <span className="Rehansdesign">My Certifications</span> showcase
-        expertise across multiple domains of technology.
+        My <span className="Rehansdesign">Certifications</span> showcase
+        expertise across multiple domains of technology
       </p>
       <div className="container services__container" data-aos="fade-up">
         {certificationsData.map((item) => (

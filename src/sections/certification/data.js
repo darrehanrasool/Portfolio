@@ -22,7 +22,7 @@ import {
 const certificationsData = [
   {
     id: 1,
-    title: "Advanced React Development",
+    title: "Advanced React Development ☑️",
     desc: "Mastered React hooks, context API, and state management to build high-performance web applications.",
     pdf: "path/to/react-certificate.pdf",
     months: 2,
@@ -31,7 +31,7 @@ const certificationsData = [
   },
   {
     id: 2,
-    title: "Node.js Backend Development",
+    title: "Node.js Backend Development ☑️",
     desc: "Built scalable server-side applications with Express.js and MongoDB integration.",
     pdf: "path/to/nodejs-certificate.pdf",
     months: 2.5,
@@ -40,7 +40,7 @@ const certificationsData = [
   },
   {
     id: 3,
-    title: "E-Commerce Platform",
+    title: "E-Commerce Platform ☑️",
     desc: "Developed full-featured online store with payment gateway integration.",
     pdf: "path/to/ecommerce-certificate.pdf",
     months: 3,
@@ -49,7 +49,7 @@ const certificationsData = [
   },
   {
     id: 4,
-    title: "Database Architecture",
+    title: "Database Architecture ☑️",
     desc: "Designed and optimized SQL and NoSQL database systems.",
     pdf: "path/to/database-certificate.pdf",
     months: 1.5,
@@ -58,7 +58,7 @@ const certificationsData = [
   },
   {
     id: 5,
-    title: "Technical Blog System",
+    title: "Technical Blog System ☑️",
     desc: "Created blog platform with Next.js and Markdown support.",
     pdf: "path/to/blog-certificate.pdf",
     months: 1,
@@ -67,7 +67,7 @@ const certificationsData = [
   },
   {
     id: 6,
-    title: "UI/UX Development",
+    title: "UI/UX Development ☑️",
     desc: "Built responsive interfaces with modern CSS techniques.",
     pdf: "path/to/frontend-certificate.pdf",
     months: 1.5,
@@ -76,7 +76,7 @@ const certificationsData = [
   },
   {
     id: 7,
-    title: "MERN Stack Mastery",
+    title: "MERN Stack Mastery ☑️",
     desc: "Built production-ready applications using MongoDB, Express, React, and Node.js with JWT authentication.",
     pdf: "path/to/mern-certificate.pdf",
     months: 3,
@@ -85,7 +85,7 @@ const certificationsData = [
   },
   {
     id: 8,
-    title: "Developer Portfolio",
+    title: "Developer Portfolio ☑️",
     desc: "Designed professional portfolio showcasing projects.",
     pdf: "path/to/portfolio-certificate.pdf",
     months: 1,
@@ -94,7 +94,7 @@ const certificationsData = [
   },
   {
     id: 9,
-    title: "Cloud Infrastructure",
+    title: "Cloud Infrastructure ☑️",
     desc: "Deployed applications on cloud platforms with CI/CD.",
     pdf: "path/to/cloud-certificate.pdf",
     months: 2,
@@ -103,7 +103,7 @@ const certificationsData = [
   },
   {
     id: 10,
-    title: "Python Programming",
+    title: "Python Programming ☑️",
     desc: "Developed scripts for data processing and automation.",
     pdf: "path/to/python-certificate.pdf",
     months: 1.5,
@@ -112,7 +112,7 @@ const certificationsData = [
   },
   {
     id: 11,
-    title: "JavaScript Expert",
+    title: "JavaScript Expert ☑️",
     desc: "Advanced training in modern JavaScript patterns.",
     pdf: "path/to/javascript-certificate.pdf",
     months: 2,
@@ -121,7 +121,7 @@ const certificationsData = [
   },
   {
     id: 12,
-    title: "AWS Solutions",
+    title: "AWS Solutions ☑️",
     desc: "Implemented cloud-native applications using AWS.",
     pdf: "path/to/aws-certificate.pdf",
     months: 2.5,
@@ -130,7 +130,7 @@ const certificationsData = [
   },
   {
     id: 13,
-    title: "Containerization",
+    title: "Containerization ☑️",
     desc: "Mastered Docker and Kubernetes for deployments.",
     pdf: "path/to/docker-certificate.pdf",
     months: 1.5,
@@ -139,7 +139,7 @@ const certificationsData = [
   },
   {
     id: 14,
-    title: "Version Control",
+    title: "Version Control ☑️",
     desc: "Implemented professional Git workflows.",
     pdf: "path/to/git-certificate.pdf",
     months: 0.5,
@@ -148,7 +148,7 @@ const certificationsData = [
   },
   {
     id: 15,
-    title: "Server Administration",
+    title: "Server Administration ☑️",
     desc: "Configured Linux servers for web applications.",
     pdf: "path/to/server-certificate.pdf",
     months: 1,
@@ -157,7 +157,7 @@ const certificationsData = [
   },
   {
     id: 16,
-    title: "Data Science Fundamentals",
+    title: "Data Science Fundamentals ☑️",
     desc: "Mastered data analysis, visualization, and statistical modeling using Python and Pandas.",
     pdf: "path/to/datascience-certificate.pdf",
     months: 3,
@@ -166,7 +166,7 @@ const certificationsData = [
   },
   {
     id: 17,
-    title: "Machine Learning",
+    title: "Machine Learning ☑️",
     desc: "Implemented ML models with Scikit-learn for predictive analytics.",
     pdf: "path/to/ml-certificate.pdf",
     months: 3,
@@ -175,7 +175,7 @@ const certificationsData = [
   },
   {
     id: 18,
-    title: "AI & Deep Learning",
+    title: "AI & Deep Learning ☑️",
     desc: "Built neural networks with TensorFlow/Keras for computer vision and NLP tasks.",
     pdf: "path/to/ai-certificate.pdf",
     months: 4,

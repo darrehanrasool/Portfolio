@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="about__right">
           <h2 className="about-header">
-            <TbUserHeart></TbUserHeart> About me
+            <TbUserHeart></TbUserHeart> About me ➿
           </h2>
           <div className="about__cards">
             {data.map((item) => (
@@ -32,32 +32,32 @@ const About = () => {
           <p>
             <span className="Rehansdesign">
               " In the silence of focused creation , complex systems become
-              clear "
+              clear ®️ "
             </span>{" "}
-            This philosophy guides my approach to software engineering. With
+            🔜 This philosophy guides my approach to software engineering. With
             <span className="Rehansdesign">
               {" "}
               <LuWorkflow></LuWorkflow> 2+ years{" "}
             </span>{" "}
-            of methodical development,I specialise in architecting performant
-            systems where clean code meets mathematical precision, particularly
-            in JavaScript. crafting innovative digital solutions has always been
-            my passion,I specialise in building high-performance scalable web
-            applications that drive digital transformation.
+            of methodical development I specialise in architecting performant
+            systems where clean code meets mathematical precision particularly
+            in JavaScript crafting innovative digital solutions has always been
+            my passion I specialise in building high-performance scalable web
+            applications that drive digital transformation 🔚
           </p>
 
           <p>
-            I'm <span className="Rehansdesign">Dar Rehan Rasool</span>, a
-            Srinagar-based developer blending computer science fundamentals with
+            🔜 I'm <span className="Rehansdesign">Dar Rehan Rasool</span>, a
+            Srinagar based developer blending computer science fundamentals with
             Modern web architecture. My work focuses on building verifiably
-            correct systems , from optimised React components to Node.js .
-            microservices, with particular attention to healthcare technology
-            applications where reliability matters most, because technology
-            should heal as much as it transforms.
+            correct systems from optimised React components to Node.js
+            microservices with particular attention to healthcare technology
+            applications where reliability matters most because technology
+            should heal as much as it transforms 🔚
           </p>
 
           <a href={CV} download className="btn primary">
-            Download Resume <HiDownload />
+            Download Resume ➿ <HiDownload />
           </a>
         </div>
       </div>

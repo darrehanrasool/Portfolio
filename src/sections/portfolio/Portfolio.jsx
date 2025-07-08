@@ -26,12 +26,12 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2>
-        <FiActivity></FiActivity> Recent Projects
+        <FiActivity></FiActivity> Recent Projects ➿
       </h2>
       <p>
         Use
         <span className="Rehansdesign"> toggle </span>between different
-        <span className="Rehansdesign"> categories </span>
+        <span className="Rehansdesign"> categories ®️ </span>
       </p>
 
       <div className="container portfolio__container">

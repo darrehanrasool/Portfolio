@@ -19,12 +19,12 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3 data-aos="fade-up"> Dar Rehan Rasool</h3>
+        <h3 data-aos="fade-up"> ®️ Dar Rehan Rasool</h3>
         <p data-aos="fade-up text">
-          “Full Stack <span className="Rehansdesign"> MERN</span> Developer with
-          a knack for weaving Digital Magic using the Dynamic trio of React
-          Node.js and Express. Building High performance , Scalable websites .
-          Bringing Businesses into the Digital world Let's innovate Together !”
+          🔜 Full Stack <span className="Rehansdesign"> MERN</span> Developer
+          with a knack for weaving Digital Magic using the Dynamic trio of React
+          Node.js and Express . Building High performance,Scalable websites 〰️
+          Bringing Businesses into the Digital world Let's innovate Together 🔙
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">
