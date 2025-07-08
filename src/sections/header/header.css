@@ -18,7 +18,7 @@ header {
   width: 18rem;
   height: 22rem;
   border-radius: 9rem 9rem 2rem 2rem;
- 
+
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
@@ -57,16 +57,28 @@ header {
 
 /* Adding a continuous floating animation */
 @keyframes floaty {
-  0% { transform: translateY(0px) scale(1.02) rotate(0deg); }
-  50% { transform: translateY(-5px) scale(1.04) rotate(0.5deg); }
-  100% { transform: translateY(0px) scale(1.02) rotate(0deg); }
+  0% {
+    transform: translateY(0px) scale(1.02) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.04) rotate(0.5deg);
+  }
+  100% {
+    transform: translateY(0px) scale(1.02) rotate(0deg);
+  }
 }
 
 /* Continuous glowing animation */
 @keyframes glowEffect {
-  0% { opacity: 0.4; }
-  50% { opacity: 0.8; }
-  100% { opacity: 0.4; }
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.4;
+  }
 }
 
 /* Adding a hover animation with a slight 3D effect */
@@ -100,20 +112,25 @@ header {
   text-align: justify;
 }
 .Rehansdesign {
-    font-weight: bold;
-    font-size: 1em;
-    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
-    
-    /* Background Clip for Text */
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -ms-background-clip: text;
-    background-clip: text;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(
+    45deg,
+    #db48d8,
+    #a836d8,
+    #cf129d
+  ); /* Softer gradient */
 
-    -webkit-text-fill-color: transparent; /* Gradient text effect */
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+  /* Background Clip for Text */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent; /* Gradient text effect */
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* MEDIA QUERIES (tablets) */
@@ -162,9 +179,15 @@ header {
 
 /* Floating Animation */
 @keyframes floaty {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Outer Glow Effect (Outside the Image) */
@@ -176,7 +199,13 @@ header {
   width: calc(100% + 20px);
   height: calc(100% + 20px);
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(219, 72, 216, 0.4), rgba(168, 54, 216, 0.3), rgba(207, 18, 157, 0.2), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(219, 72, 216, 0.4),
+    rgba(168, 54, 216, 0.3),
+    rgba(207, 18, 157, 0.2),
+    transparent 70%
+  );
   opacity: 0;
   transform: scale(0.8);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -212,7 +241,8 @@ header {
   width: 0;
   height: 3px; /* Thicker line for 3D effect */
   background: linear-gradient(90deg, #db48d8, #a836d8, #cf129d);
-  box-shadow: 0 2px 10px rgba(219, 72, 216, 0.6), 0 2px 20px rgba(168, 54, 216, 0.6), 0 2px 30px rgba(207, 18, 157, 0.6);
+  box-shadow: 0 2px 10px rgba(219, 72, 216, 0.6),
+    0 2px 20px rgba(168, 54, 216, 0.6), 0 2px 30px rgba(207, 18, 157, 0.6);
   transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
   z-index: 1;
 }
