@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-import AboutImage from "../../assets/Rehan/Rehan1.jpg";
+import AboutImage from "../../assets/Rehan/rehan6.png";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import { TbUserHeart } from "react-icons/tb";
@@ -31,23 +30,30 @@ const About = () => {
             ))}
           </div>
           <p>
-            Crafting innovative digital solutions has always been my passion,
+            <span className="Rehansdesign">
+              " In the silence of focused creation , complex systems become
+              clear "
+            </span>{" "}
+            This philosophy guides my approach to software engineering. With
             <span className="Rehansdesign">
               {" "}
               <LuWorkflow></LuWorkflow> 2+ years{" "}
             </span>{" "}
-            in web development, I specialize in building high - performance,
-            scalable web applications that drive digital transformation.
+            of methodical development,I specialise in architecting performant
+            systems where clean code meets mathematical precision, particularly
+            in JavaScript. crafting innovative digital solutions has always been
+            my passion,I specialise in building high-performance scalable web
+            applications that drive digital transformation.
           </p>
 
           <p>
-            Hi, I'm <span className="Rehansdesign">Rehan</span> from Srinagar,
-            Kashmir! A passionate Software Developer skilled in modern web
-            technologies, with expertise in Full-Stack Development and digital
-            business solutions. I thrive on building dynamic applications,
-            optimizing performance and Beyond web development, I'm interested in
-            AI-driven medical projects and web-based healthcare solutions. My
-            focus is on leveraging technology for impactful research .
+            I'm <span className="Rehansdesign">Dar Rehan Rasool</span>, a
+            Srinagar-based developer blending computer science fundamentals with
+            Modern web architecture. My work focuses on building verifiably
+            correct systems , from optimised React components to Node.js .
+            microservices, with particular attention to healthcare technology
+            applications where reliability matters most, because technology
+            should heal as much as it transforms.
           </p>
 
           <a href={CV} download className="btn primary">

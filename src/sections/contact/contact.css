@@ -1,51 +1,137 @@
+/* Existing Contact Styles */
 .contact__container {
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    height: max-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  height: max-content;
 }
 
 .contact__container a {
-    width: 5rem;
-    aspect-ratio: 1/1;
-    color: white;
-    background: var(--color-primary);
-    display: grid;
-    place-items: center;
-    font-size: 2rem;
-    border: 2px solid transparent;
-    border-radius: var(--border-radius-1);
+  width: 5rem;
+  aspect-ratio: 1/1;
+  color: white;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-1);
+  transition: var(--transition);
 }
 
 .contact__container a:hover {
-    background: transparent;
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-    transform: translateY(-0.5rem);
+  background: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-0.5rem);
 }
 
-
-
-/* MEDIA QUERIES (phones) */
-@media screen and (max-width: 600px) {
-    .contact__container {
-        gap: 1rem;
-    }
+/* New Store Info Styles */
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.store-info {
+  background: var(--color-white);
+  border-radius: var(--border-radius-1);
+  padding: 1.5rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.store-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.store-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-dark);
+}
+
+.store-meta p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.store-meta a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.store-meta a:hover {
+  text-decoration: underline;
+}
+
+.store-map {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--border-radius-1);
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.store-map:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+/* Text Gradient (Existing) */
 .Rehansdesign {
-    font-weight: bold;
-    font-size: 1em;
-    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
-    
-    /* Background Clip for Text */
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -ms-background-clip: text;
-    background-clip: text;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
 
-    -webkit-text-fill-color: transparent; /* Gradient text effect */
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .contact-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contact__container {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .store-info {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__container {
+    gap: 1rem;
+  }
+
+  .store-title {
+    font-size: 1.2rem;
+  }
+
+  .store-meta {
+    font-size: 0.9rem;
+  }
+
+  .store-map {
+    height: 250px;
+  }
 }
