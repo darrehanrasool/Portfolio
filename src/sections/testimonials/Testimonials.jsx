@@ -22,7 +22,7 @@ const Testimonials = () => {
         <FiActivity></FiActivity> What My Clients Say{" "}
       </h2>
       <p>
-        These are unbiased <span className="Rehansdesign"> testmonials </span>
+        These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
         from some of my clients
       </p>
       <div className="container">

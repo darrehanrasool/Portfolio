@@ -30,7 +30,7 @@ const Portfolio = () => {
       </h2>
       <p>
         use
-        <span className="Rehansdesign"> toggle </span>between different
+        <span className="Rehansdesign"> toggle </span> between different
         <span className="Rehansdesign"> categories</span>
       </p>
 
