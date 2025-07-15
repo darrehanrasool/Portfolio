@@ -13,7 +13,6 @@ const themeReducer = (state, action) => {
     return { ...state, primary: "color-4" };
   }
   if (action.type === "color-5") {
-    ß;
     return { ...state, primary: "color-5" };
   }
   if (action.type === "color-6") {
