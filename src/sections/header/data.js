@@ -12,28 +12,29 @@ import { FaThreads } from "react-icons/fa6";
 
 const data = [
   { id: 1, link: "https://github.com/Darrehan", icon: <AiFillGithub /> },
+  { id: 2, link: "https://peerlist.io/darrehan", icon: <SiPeerlist /> },
   {
-    id: 2,
+    id: 3,
     link: "https://www.linkedin.com/in/darrehanrasool/",
     icon: <AiFillLinkedin />,
   },
-  { id: 3, link: "https://x.com/CseRehan", icon: <AiOutlineTwitter /> },
+  { id: 4, link: "https://x.com/CseRehan", icon: <AiOutlineTwitter /> },
   {
-    id: 4,
+    id: 5,
     link: "https://www.instagram.com/dar.rehan_/",
     icon: <AiOutlineInstagram />,
   },
   {
-    id: 5,
+    id: 6,
     link: "https://www.facebook.com/dar.rehan.rasool/", // Replace with actual Facebook link
     icon: <AiFillFacebook />,
   },
   {
-    id: 6,
+    id: 7,
     link: "https://www.youtube.com/@RehansQuest",
     icon: <AiFillYoutube />,
   },
-  { id: 7, link: "https://peerlist.io/darrehan", icon: <SiPeerlist /> },
+
   { id: 8, link: "https://yourblog.com", icon: <FaBlog /> }, // Replace with actual blog link
   {
     id: 9,
