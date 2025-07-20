@@ -31,29 +31,27 @@ const About = () => {
           </div>
           <p>
             <span className="Rehansdesign">
-              " In the silence of focused creation , complex systems become
+              🔜 " In the silence of focused creation, complex systems become
               clear "
             </span>{" "}
-            🔜 This philosophy guides my approach to software engineering. With
+            I'm Dar Rehan Rasool , a{" "}
             <span className="Rehansdesign">
-              {" "}
-              <LuWorkflow></LuWorkflow> 2+ years{" "}
+              <LuWorkflow /> MERN
             </span>{" "}
-            of methodical development I specialise in architecting performant
-            systems where clean code meets mathematical precision particularly
-            in JavaScript crafting innovative digital solutions has always been
-            my passion I specialise in building high-performance scalable web
-            applications that drive digital transformation 🔚
+            developer from Srinagar with a B-Tech in Computer Science. With 2+
+            years experience in{" "}
+            <span className="Rehansdesign">
+              <LuWorkflow /> JavaScript
+            </span>
+            , I build scalable apps where clean code meets practical solutions.
           </p>
 
           <p>
-            🔜 I'm <span className="Rehansdesign">Dar Rehan Rasool</span>, a
-            Srinagar based developer blending computer science fundamentals with
-            Modern web architecture. My work focuses on building verifiably
-            correct systems from optimised React components to Node.js
-            microservices with particular attention to healthcare technology
-            applications where reliability matters most because technology
-            should heal as much as it transforms 🔚
+            🔜 My focus spans from React interfaces to Node.js backends, with
+            special attention to{" "}
+            <span className="Rehansdesign"> ⚕️ healthcare technology </span>{" "}
+            where reliability matters most. I bridge academic theory with
+            real-world development to create systems that works efficiently 🔚
           </p>
 
           <a href={CV} download className="btn primary">

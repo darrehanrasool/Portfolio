@@ -29,8 +29,7 @@ const Portfolio = () => {
         <FiActivity></FiActivity> Recent Projects ➿
       </h2>
       <p>
-        use
-        <span className="Rehansdesign"> toggle </span> between different
+        use <span className="Rehansdesign"> toggle </span> between different{" "}
         <span className="Rehansdesign"> categories</span>
       </p>
 
