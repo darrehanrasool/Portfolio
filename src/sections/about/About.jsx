@@ -43,15 +43,15 @@ const About = () => {
             <span className="Rehansdesign">
               <LuWorkflow /> JavaScript
             </span>
-            , I build scalable apps where clean code meets practical solutions.
+            ,I build scalable apps where clean code meets practical solutions.
           </p>
 
           <p>
-            🔜 My focus spans from React interfaces to Node.js backends, with
+            My focus spans from React interfaces to Node.js backends, with
             special attention to{" "}
             <span className="Rehansdesign"> ⚕️ healthcare technology </span>{" "}
             where reliability matters most. I bridge academic theory with
-            real-world development to create systems that works efficiently 🔚
+            real-world development to create systems that works efficiently.
           </p>
 
           <a href={CV} download className="btn primary">
