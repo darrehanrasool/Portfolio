@@ -1,4 +1,4 @@
-import AboutImage from "../../assets/Rehan/About2.png";
+import AboutImage from "../../assets/Rehan/About6.png";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import { LuWorkflow } from "react-icons/lu";
@@ -32,16 +32,17 @@ const About = () => {
               systems become clear ❞
             </span>{" "}
             I'm Dar Rehan Rasool , a <span className="Rehansdesign">MERN</span>{" "}
-            developer from Srinagar with a B-Tech in CSE With 2+ years
-            experience in <span className="Rehansdesign">JavaScript</span> I
-            build scalable apps where clean code meets practical solutions
+            developer from Srinagar with a BTech in CSE With 2+ years experience
+            in <span className="Rehansdesign">JavaScript</span>, I build
+            scalable apps where clean code meets practical solutions
           </p>
+
           <p>
             My focus spans from React interfaces to Node.js backends, with
             special attention to{" "}
-            <span className="Rehansdesign"> healthcare technology ⚕️ </span>{" "}
-            where reliability matters most. I bridge academic theory with
-            real-world development to create systems that works efficiently
+            <span className="Rehansdesign"> healthcare technology </span> where
+            reliability matters most I bridge academic theory with real world
+            development to create systems that works efficiently
           </p>
 
           <a href={CV} download className="btn primary">

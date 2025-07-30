@@ -12,6 +12,7 @@ import Theme from "./theme/Theme";
 import { useThemeContext } from "./context/theme-context";
 import { useRef, useState, useEffect } from "react";
 import Certification from "./sections/certification/Certification";
+import Quotes from "./sections/Quote/Quote";
 
 const App = () => {
   const { themeState } = useThemeContext();
@@ -63,6 +64,7 @@ const App = () => {
       <Testimonials />
       <FAQs />
       <Certification />
+      <Quotes />
       <Contact />
       <Footer />
       <Theme />

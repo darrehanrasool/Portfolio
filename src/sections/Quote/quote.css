@@ -1,0 +1,139 @@
+/* ===== Mobile-First Styles ===== */
+.quotes__container {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.portrait-container,
+.action-buttons {
+  display: none;
+}
+
+.quote-carousel {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* ===== Desktop Styles ===== */
+@media (min-width: 768px) {
+  .quotes__container {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 5%;
+    padding: 2rem;
+  }
+
+  .portrait-container,
+  .action-buttons {
+    display: block;
+  }
+
+  .quote-carousel {
+    height: 400px;
+  }
+}
+
+/* ===== Dark Theme Variables ===== */
+:root {
+  --bg-dark: #0a0a0a;
+  --text-light: #e0e0e0;
+  --accent-dark: #5a189a;
+  --card-bg: #121212;
+}
+
+/* ===== Carousel Styles ===== */
+.quote-card {
+  position: absolute;
+  width: 100%;
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.8s ease, opacity 0.8s ease;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.quote-card.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.quote-card.prev {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+}
+
+.quote-author {
+  color: var(--accent-dark);
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+/* ===== Navigation Dots ===== */
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-dot.active {
+  background: var(--accent-dark);
+  transform: scale(1.3);
+}
+
+/* ===== Header ===== */
+.section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+  font-size: 1.5rem;
+}
+
+/* ===== Desktop-Only Elements ===== */
+.portrait-container {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portrait-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action-btn {
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--accent-dark);
+  font-size: 0.8rem;
+}

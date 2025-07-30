@@ -1,6 +1,5 @@
-/* Existing Contact Styles - Preserved */
+/* ===== Contact Section Styles ===== */
 .contact__container {
-  /* width: fit-content; */
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -48,7 +47,7 @@
   transform: translateX(100%);
 }
 
-/* New Store Info Styles - Enhanced */
+/* ===== Contact Content Layout ===== */
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -58,6 +57,7 @@
   margin: 0 auto;
 }
 
+/* ===== Store Info Card ===== */
 .store-info {
   background: var(--color-white);
   border-radius: var(--border-radius-1);
@@ -92,6 +92,12 @@
   100% {
     transform: translateX(100%) rotate(30deg);
   }
+}
+
+/* ===== Store Details ===== */
+.store-details {
+  position: relative;
+  z-index: 2;
 }
 
 .store-title {
@@ -145,15 +151,17 @@
   width: 100%;
 }
 
+/* ===== Enhanced Map Container ===== */
 .store-map {
   width: 100%;
   height: 300px;
   border-radius: var(--border-radius-1);
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   z-index: 1;
+  isolation: isolate;
 }
 
 .store-map:hover {
@@ -161,7 +169,175 @@
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
 }
 
-/* Text Gradient (Enhanced) */
+/* Map Overlay Effects */
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 54, 216, 0.1) 0%,
+    rgba(207, 18, 157, 0) 50%,
+    rgba(219, 72, 216, 0.1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.store-map:hover .map-overlay {
+  opacity: 0.8;
+}
+
+/* Animated Map Marker */
+.map-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(-45deg);
+  width: 30px;
+  height: 30px;
+  background: var(--color-primary);
+  border-radius: 50% 50% 50% 0;
+  z-index: 3;
+  animation: pulse 2s infinite, float 3s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(219, 72, 216, 0.5);
+}
+
+.map-marker::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -100%) rotate(-45deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -100%) rotate(-45deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -100%) rotate(-45deg) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Map Edge Glow Effects */
+.map-edge {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: var(--border-radius-1);
+}
+
+.map-edge::before,
+.map-edge::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, var(--color-primary) 0%, transparent 70%);
+  filter: blur(30px);
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.map-edge::before {
+  top: -50px;
+  left: -50px;
+  transform: scale(0.8);
+}
+
+.map-edge::after {
+  bottom: -50px;
+  right: -50px;
+  transform: scale(0.8);
+}
+
+.store-map:hover .map-edge::before,
+.store-map:hover .map-edge::after {
+  opacity: 0.3;
+  transform: scale(1);
+}
+
+/* Floating Particles Animation */
+.particle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+  animation: float 15s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(20px, -20px) rotate(180deg);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+    opacity: 0.6;
+  }
+}
+
+/* ===== Social Icons Tooltips ===== */
+.social-tooltip {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-1);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 10;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: var(--color-primary) transparent transparent transparent;
+}
+
+.contact__container a:hover .social-tooltip {
+  opacity: 1;
+  visibility: visible;
+  bottom: calc(100% + 5px);
+}
+
+/* ===== Text Gradient Effect ===== */
 .Rehansdesign {
   font-weight: bold;
   font-size: 1em;
@@ -194,7 +370,7 @@
   transform-origin: left;
 }
 
-/* Connection Message */
+/* ===== Connection Message ===== */
 .connection-message {
   position: fixed;
   bottom: 20px;
@@ -206,17 +382,19 @@
   border-radius: var(--border-radius-1);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
   z-index: 1000;
   text-align: center;
   max-width: 90%;
+  backdrop-filter: blur(5px);
 }
 
 .connection-message.visible {
   opacity: 1;
+  transform: translateX(-50%) translateY(-10px);
 }
 
-/* MEDIA QUERIES */
+/* ===== Responsive Design ===== */
 @media screen and (min-width: 768px) {
   .contact-content {
     flex-direction: row;
@@ -236,6 +414,13 @@
 @media screen and (max-width: 600px) {
   .contact__container {
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact__container a {
+    width: 4rem;
+    font-size: 1.8rem;
   }
 
   .store-title {
@@ -255,4 +440,55 @@
     padding: 0.8rem;
     font-size: 0.9rem;
   }
+
+  .map-marker {
+    width: 20px;
+    height: 20px;
+  }
+
+  .map-marker::after {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* ===== Additional Micro-Interactions ===== */
+iframe {
+  transition: transform 0.3s ease;
+}
+
+.store-map:hover iframe {
+  transform: scale(1.02);
+}
+
+/* ===== Section Header Styles ===== */
+#location h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#location h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+}
+
+#location p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+  color: var(--color-dark);
 }
