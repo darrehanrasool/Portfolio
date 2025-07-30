@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FiActivity, FiClock, FiPhone } from "react-icons/fi";
+import { FiClock, FiPhone } from "react-icons/fi";
 import { socialContacts, storeInfo } from "./data";
 import "./contact.css";
 
@@ -43,12 +43,10 @@ const Contact = () => {
 
   return (
     <section id="location">
-      <h2>
-        <FiActivity /> Get In Touch ➿
-      </h2>
+      <h2>Get In Touch ☃︎</h2>
       <p>
-        Send me a <span className="Rehansdesign">Message 🗯️ </span> via given
-        Below!
+        ❝ Send me a <span className="Rehansdesign"> Message </span> via given
+        options ❞
       </p>
 
       <div className="contact-content">

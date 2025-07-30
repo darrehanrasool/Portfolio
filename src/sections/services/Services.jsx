@@ -1,15 +1,11 @@
 import Card from "../../components/Card";
 import data from "./data";
-import { FiActivity } from "react-icons/fi";
 import "./services.css";
 
 const Services = () => {
   return (
     <section id="services">
-      <h2>
-        {" "}
-        <FiActivity></FiActivity> My Expertise ➿{" "}
-      </h2>
+      <h2> ⚡︎ My Expertise </h2>
       <p>
         Building <span className="Rehansdesign"> cutting-edge</span> solutions
         across multiple domains of technology{" "}

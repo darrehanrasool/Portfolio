@@ -3,7 +3,6 @@ import Projects from "./Projects";
 import ProjectsCategories from "./ProjectsCategories";
 import data from "./data";
 import { useState } from "react";
-import { FiActivity } from "react-icons/fi";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
@@ -25,9 +24,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>
-        <FiActivity></FiActivity> Recent Projects ➿
-      </h2>
+      <h2>⚡︎ Recent Projects</h2>
       <p>
         use <span className="Rehansdesign"> toggle </span> between different{" "}
         <span className="Rehansdesign"> categories</span>

@@ -1,123 +1,100 @@
 const data = [
   {
     id: 1,
-    question: "How ensure project deadlines are met 🗯️",
+    question:
+      "What technologies do you specialize in for fullstack development ﹖",
     answer:
-      "I break tasks into weekly milestones with buffers. Use Agile tools like Jira for tracking. Daily standups keep everyone aligned on progress.",
+      "MERN stack (MongoDB, Express, React, Node.js). Next.js for SSR applications. TailwindCSS for responsive designs. Docker for containerization. AWS basics for deployment.",
   },
   {
     id: 2,
-    question: "Can you work with legacy systems 🗯️",
+    question: "Can you describe your development workflow and methodology ﹖",
     answer:
-      "Absolutely. I start by documenting existing flows. Gradually refactor with test coverage. Respect the system's historical decisions while improving.",
+      "Agile-inspired personal sprints. GitHub for version control. Trello for task tracking. Daily progress reviews. Detailed project documentation.",
   },
   {
     id: 3,
-    question: "Handle frequent requirement changes how 🗯️",
+    question: "What's been your most challenging academic project and why ﹖",
     answer:
-      "I maintain modular code architecture for flexibility. Set clear change request protocols. Communicate impacts transparently before implementing shifts.",
+      "Medicinal plant identifier with AI. Combined CNN models with React. Complex data pipeline. Limited resources. Won college tech fest recognition.",
   },
   {
     id: 4,
-    question: "Your UI/UX feedback approach 🗯️",
+    question: "How do you approach problem-solving when stuck on code ﹖",
     answer:
-      "I implement A/B testing for major changes. Prioritize accessibility compliance. Validate with real user testing data before finalizing.",
+      "Rubber duck debugging first. MDN/Stack Overflow research. University mentor consultation. Break problems into steps. Document solutions for others.",
   },
   {
     id: 5,
-    question: "Reduce API latency strategies 🗯️",
+    question: "What's your experience with database systems from projects ﹖",
     answer:
-      "I implement Redis caching for frequent queries. Optimize database indexes. Use compression for large payloads. Monitor with APM tools.",
+      "MongoDB for course projects. PostgreSQL for lab assignments. Mongoose ORM experience. Basic Redis concepts. University database coursework.",
   },
   {
     id: 6,
-    question: "MERN security best practices 🗯️",
+    question: "How do you ensure code quality in your projects ﹖",
     answer:
-      "I sanitize all user inputs rigorously. Implement JWT rotation and HTTPS. Conduct regular dependency vulnerability scans. Rate-limit sensitive endpoints.",
+      "ESLint + Prettier setup. Basic Jest unit tests. Peer code reviews. Commenting standards. Consistent naming conventions.",
   },
   {
     id: 7,
-    question: "How learned MERN stack 🗯️",
+    question: "What's your experience with deployment and DevOps﹖",
     answer:
-      "Through Coursera/udemy courses initially. Built 10+ practice projects. College labs provided structured foundation. Still learning new patterns daily.",
+      "Vercel/Netlify for frontends. Render for backends. Docker basics. GitHub Pages. Academic project deployments.",
   },
   {
     id: 8,
-    question: "Favorite BTech project why 🗯️",
+    question: "How do you handle API development from your learning﹖",
     answer:
-      "Medicinal plant analyzer - my first full-stack AI project. Combined CNN models with React frontend. Won college tech fest recognition.",
+      "RESTful API coursework. JWT authentication projects. Postman testing. University API labs. OpenAPI documentation basics.",
   },
   {
     id: 9,
-    question: "Why passionate about Data Science 🗯️",
+    question: "What's your approach to responsive UI design﹖",
     answer:
-      "Fascinated by deriving insights from chaos. Love the math-meets-code duality. Especially interested in healthcare applications for AI/ML.",
+      "Mobile-first projects. TailwindCSS practice. Cross-browser testing. Accessibility awareness. Performance best practices.",
   },
   {
     id: 10,
-    question: "Daily skill growth routine 🗯️",
+    question: "How do you stay updated with evolving technologies﹖",
     answer:
-      "Morning: Leetcode/DSA practice sessions. Afternoons: Project development time. Evenings: Research papers/tech blogs. Weekends: Hackathons.",
+      "Daily tech newsletters. FreeCodeCamp courses. YouTube coding channels. University tech clubs. Personal sandbox projects.",
   },
   {
     id: 11,
-    question: "Debugging MERN apps how 🗯️",
+    question: "What tools do you use for collaborative coding﹖",
     answer:
-      "Frontend: Chrome DevTools + React Profiler. Backend: Postman + Node debugger. Database: Explain queries + Mongoose debug mode.",
+      "GitHub for team projects. VS Code Live Share. Discord for communication. Google Docs for planning. Zoom for virtual collab.",
   },
   {
     id: 12,
-    question: "Database selection criteria what 🗯️",
+    question: "How do you manage technical debt in academic projects﹖",
     answer:
-      "MongoDB for rapid prototyping needs. PostgreSQL for complex transactions. Redis for caching. Choose based on query patterns.",
+      "Post-project refactoring. Instructor feedback. Peer code reviews. Documentation updates. Learning from mistakes.",
   },
   {
     id: 13,
-    question: "Resolve team conflicts how 🗯️",
+    question: "What's your experience with testing from coursework﹖",
     answer:
-      "Listen actively to all perspectives. Present data-driven arguments neutrally. Seek solutions aligning with project KPIs. Document decisions.",
+      "Jest unit testing basics. React Testing Library intro. Manual API testing. University testing modules. Test-driven learning.",
   },
   {
     id: 14,
-    question: "Biggest college lesson learned 🗯️",
+    question: "How do you approach security in web applications﹖",
     answer:
-      "User testing reveals unexpected edge cases. Documentation saves future headaches. Teamwork amplifies individual strengths. Fail fast, learn faster.",
+      "OWASP Top 10 awareness. Basic input validation. HTTPS implementation. University security coursework. Password hashing practice.",
   },
   {
     id: 15,
-    question: "Stay tech-updated how 🗯️",
+    question: "What architecture patterns have you learned﹖",
     answer:
-      "Hacker News for industry trends. Official docs for depth. Tech Twitter for debates. Conference recordings for emerging patterns.",
+      "MVC from coursework. Component-based design. Basic microservices concepts. University project structures. Documentation studies.",
   },
   {
     id: 16,
-    question: "Work location preference 🗯️",
+    question: "How do you continue growing as a new developer﹖",
     answer:
-      "I'm fully flexible - remote, onsite or hybrid. Remote for deep work phases. Onsite for collaborative sprints. Adapt to team needs.",
-  },
-  {
-    id: 17,
-    question: "Toughest coding challenge solved 🗯️",
-    answer:
-      "Implemented offline-first PWA for HerbEsentia. Service Workers with cache strategies. Sync conflicts resolution. Works in low-connectivity areas.",
-  },
-  {
-    id: 18,
-    question: "Essential dev tools list 🗯️",
-    answer:
-      "VS Code with GitLens. Postman for API workflows. Docker for environments. Notion for documentation. Linux terminal daily.",
-  },
-  {
-    id: 19,
-    question: "After BTech plans what 🗯️",
-    answer:
-      "Gain industry experience first. Specialize via MTech in AI/ML. Contribute to open-source. Eventually mentor newcomers to tech.",
-  },
-  {
-    id: 20,
-    question: "Advice for new coders 🗯️",
-    answer:
-      "Build projects over tutorials. Learn git immediately. Read code daily. Ask questions fearlessly. Specialize after exploring broadly.",
+      "Daily coding practice. Open-source contributions. Tech meetups. Mentor guidance. Building diverse projects.",
   },
 ];
 

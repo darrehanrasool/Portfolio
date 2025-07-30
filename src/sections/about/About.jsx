@@ -1,7 +1,6 @@
 import AboutImage from "../../assets/Rehan/About2.png";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
-import { TbUserHeart } from "react-icons/tb";
 import { LuWorkflow } from "react-icons/lu";
 import data from "./data";
 import Card from "../../components/Card";
@@ -17,9 +16,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h2 className="about-header">
-            <TbUserHeart></TbUserHeart> About me ➿
-          </h2>
+          <h2 className="about-header"> About me ☃︎ </h2>
           <div className="about__cards">
             {data.map((item) => (
               <Card key={item.id} className="about__card">
@@ -31,31 +28,24 @@ const About = () => {
           </div>
           <p>
             <span className="Rehansdesign">
-              " In the silence of focused creation , complex systems become
-              clear "
+              <LuWorkflow /> ❝ In the silence of focused creation , complex
+              systems become clear ❞
             </span>{" "}
-            I'm Dar Rehan Rasool , a{" "}
-            <span className="Rehansdesign">
-              <LuWorkflow /> MERN
-            </span>{" "}
-            developer from Srinagar with a B-Tech in Computer Science. With 2+
-            years experience in{" "}
-            <span className="Rehansdesign">
-              <LuWorkflow /> JavaScript
-            </span>
-            ,I build scalable apps where clean code meets practical solutions.
+            I'm Dar Rehan Rasool , a <span className="Rehansdesign">MERN</span>{" "}
+            developer from Srinagar with a B-Tech in CSE With 2+ years
+            experience in <span className="Rehansdesign">JavaScript</span> I
+            build scalable apps where clean code meets practical solutions
           </p>
-
           <p>
             My focus spans from React interfaces to Node.js backends, with
             special attention to{" "}
-            <span className="Rehansdesign"> ⚕️ healthcare technology </span>{" "}
+            <span className="Rehansdesign"> healthcare technology ⚕️ </span>{" "}
             where reliability matters most. I bridge academic theory with
-            real-world development to create systems that works efficiently.
+            real-world development to create systems that works efficiently
           </p>
 
           <a href={CV} download className="btn primary">
-            Download Resume ➿ <HiDownload />
+            Download Resume ☃︎ <HiDownload />
           </a>
         </div>
       </div>
