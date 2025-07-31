@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HeaderImage from "../../assets/Rehan/Header2.png";
+import HeaderImage from "../../assets/Rehan/Header5.png";
 import { LuWorkflow } from "react-icons/lu";
 import { IoChatbox } from "react-icons/io5";
 
@@ -24,8 +24,7 @@ const Header = () => {
           ❝ Full Stack <span className="Rehansdesign"> MERN</span> Developer
           with a knack for weaving Digital Magic using the Dynamic trio of React
           Node.js and Express Building High performance Scalable websites
-          Bringing ☃︎ Businesses into the Digital world Let's innovate Together
-          ❞
+          Bringing Businesses into the Digital world Let's innovate Together ❞
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">

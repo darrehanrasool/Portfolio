@@ -1,7 +1,6 @@
 import AboutImage from "../../assets/Rehan/About6.png";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
-import { LuWorkflow } from "react-icons/lu";
 import data from "./data";
 import Card from "../../components/Card";
 import "./about.css";
@@ -16,7 +15,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h2 className="about-header"> About me ☃︎ </h2>
+          <h2 className="about-header"> ⚡︎ About me </h2>
           <div className="about__cards">
             {data.map((item) => (
               <Card key={item.id} className="about__card">
@@ -28,8 +27,8 @@ const About = () => {
           </div>
           <p>
             <span className="Rehansdesign">
-              <LuWorkflow /> ❝ In the silence of focused creation , complex
-              systems become clear ❞
+              ❝ ‘ In the silence of focused creation , complex systems become
+              clear ’ ❞
             </span>{" "}
             I'm Dar Rehan Rasool , a <span className="Rehansdesign">MERN</span>{" "}
             developer from Srinagar with a BTech in CSE With 2+ years experience
@@ -46,7 +45,7 @@ const About = () => {
           </p>
 
           <a href={CV} download className="btn primary">
-            Download Resume ☃︎ <HiDownload />
+            Download Resume ⌘ <HiDownload />
           </a>
         </div>
       </div>

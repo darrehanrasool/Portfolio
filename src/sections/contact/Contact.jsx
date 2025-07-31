@@ -6,13 +6,13 @@ import { SiPeerlist, SiLeetcode } from "react-icons/si";
 import "./contact.css";
 
 const messages = [
-  "❝ Let's create digital magic together ☃︎ ❞",
-  " ❝ Your vision my skills Innovation ☃︎ ❞",
-  "❝ Ready to collaborate  Let's connect  ☃︎ ❞",
-  "❝ Turning ideas into reality since day one ☃︎ ❞",
-  "❝ Every great project starts with a conversation ☃︎ ❞",
-  "❝ Innovation is just a message away ☃︎ ❞",
-  "❝ Let's build something extraordinary together ☃︎ ❞",
+  "❝ Let's create digital magic together ❞",
+  " ❝ Your vision my skills Innovation ❞",
+  "❝ Ready to collaborate  Let's connect ❞",
+  "❝ Turning ideas into reality since day one ❞",
+  "❝ Every great project starts with a conversation ❞",
+  "❝ Innovation is just a message away ❞",
+  "❝ Let's build something extraordinary together ❞",
 ];
 
 const socialContacts = [
@@ -123,7 +123,7 @@ const Contact = () => {
 
   return (
     <section id="location">
-      <h2>Get In Touch ☃︎</h2>
+      <h2>Get In Touch </h2>
       <p>
         ❝ Send me a <span className="Rehansdesign">Message</span> via given
         options ❞

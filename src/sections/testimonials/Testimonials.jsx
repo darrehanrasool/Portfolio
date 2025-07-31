@@ -16,7 +16,7 @@ import "./testimonials.css";
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h2> What My Clients Say ☃︎ </h2>
+      <h2> ⚡︎ Testimonials </h2>
       <p>
         ❝ These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
         from some of my clients ❞

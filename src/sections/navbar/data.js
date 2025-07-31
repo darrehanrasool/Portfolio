@@ -6,8 +6,7 @@ const data = [
   { id: 5, link: "#testimonials", title: "Reviews" },
   { id: 6, link: "#faqs", title: "FAQ" },
   { id: 7, link: "#certification", title: "Certification" },
-  { id: 8, link: "#quote", title: "Quote" },
-  { id: 9, link: "#location", title: "Contact" },
+  { id: 8, link: "#location", title: "Contact" },
 ];
 
 export default data;
