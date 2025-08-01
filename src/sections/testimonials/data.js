@@ -5,19 +5,22 @@ import Avatar4 from "../../assets/avatar/avatar4.jpg";
 import Avatar5 from "../../assets/avatar/avatar5.jpg";
 import Avatar6 from "../../assets/avatar/avatar6.jpg";
 import Avatar7 from "../../assets/avatar/avatar7.jpg";
+import Avatar8 from "../../assets/avatar/avatar8.png";
+import Avatar9 from "../../assets/avatar/avatar9.png";
+import Avatar10 from "../../assets/avatar/avatar10.png";
 
 const data = [
   {
     id: 1,
     quote: "Rehan delivered our project on time and was responsive to feedback",
-    avatar: Avatar1,
+    avatar: Avatar2,
     name: "Rajesh Kumar 🟢",
     profession: "Small Business Owner",
   },
   {
     id: 2,
     quote: "Good work on our website. The features work as expected",
-    avatar: Avatar2,
+    avatar: Avatar1,
     name: "Priya Sharma 🟢",
     profession: "Blogger",
   },
@@ -38,7 +41,7 @@ const data = [
   {
     id: 5,
     quote: "Fixed our issues efficiently. Reasonable pricing",
-    avatar: Avatar5,
+    avatar: Avatar8,
     name: "Vikram Singh 🟢",
     profession: "Local Shop Owner",
   },
@@ -52,28 +55,28 @@ const data = [
   {
     id: 7,
     quote: "Reliable developer for small to medium projects",
-    avatar: Avatar7,
+    avatar: Avatar3,
     name: "Rahul Verma 🟢",
     profession: "Marketing Manager",
   },
   {
     id: 8,
     quote: "Communicated well throughout the project",
-    avatar: Avatar1,
+    avatar: Avatar9,
     name: "Sunita Rao 🟢",
     profession: "Non-profit Director",
   },
   {
     id: 9,
     quote: "Delivered what was promised. No major complaints",
-    avatar: Avatar2,
+    avatar: Avatar10,
     name: "Deepak Malhotra 🟢",
     profession: "Restaurant Owner",
   },
   {
     id: 10,
     quote: "Good for basic CRUD applications. Met our requirements ",
-    avatar: Avatar3,
+    avatar: Avatar7,
     name: "Pooja Mehta 🟢 ",
     profession: "Student",
   },
