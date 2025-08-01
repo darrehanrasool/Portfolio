@@ -27,8 +27,8 @@ const About = () => {
           </div>
           <p>
             <span className="Rehansdesign">
-              ❝ ‘ In the silence of focused creation , complex systems become
-              clear ’ ❞
+              ❝ In the silence of focused creation , complex systems become
+              clear ❞
             </span>{" "}
             I'm Dar Rehan Rasool , a <span className="Rehansdesign">MERN</span>{" "}
             developer from Srinagar with a BTech in CSE With 2+ years experience
