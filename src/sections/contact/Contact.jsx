@@ -10,9 +10,9 @@ const messages = [
   " ❝ Your vision my skills Innovation ❞",
   "❝ Ready to collaborate  Let's connect ❞",
   "❝ Turning ideas into reality since day one ❞",
-  "❝ Every great project starts with a conversation ❞",
+  "❝ Every project starts with a conversation ❞",
   "❝ Innovation is just a message away ❞",
-  "❝ Let's build something extraordinary together ❞",
+  "❝ Let's build something extraordinary  ❞",
 ];
 
 const socialContacts = [
