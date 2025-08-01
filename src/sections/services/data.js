@@ -20,7 +20,7 @@ const data = [
   {
     id: 1,
     icon: <SiJavascript />,
-    title: "JavaScript ES6+ 🔘",
+    title: "JavaScript ES6+ ",
     desc: "Modern syntax features. Async/await patterns. Module system imports. Prototype chain concepts. Strict mode usage.",
   },
   {
