@@ -7,7 +7,7 @@ import "./contact.css";
 
 const messages = [
   "❝ Let's create digital magic together ❞",
-  " ❝ Your vision my skills Innovation ❞",
+  "❝ Your vision my skills Innovation ❞",
   "❝ Ready to collaborate  Let's connect ❞",
   "❝ Turning ideas into reality since day one ❞",
   "❝ Every project starts with a conversation ❞",
