@@ -1,47 +1,50 @@
 .services__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 4rem;
 }
-
 .card.service {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
 }
-
 .service__icon {
-    background: var(--color-primary);
-    padding: 0.6rem;
-    border-radius: var(--border-radius-3);
-    font-size: 1.5rem;
-    color: var(--color-white);
-    transition: var(--transition);
+  background: var(--color-primary);
+  padding: 0.6rem;
+  border-radius: var(--border-radius-3);
+  font-size: 1.5rem;
+  color: var(--color-white);
+  transition: var(--transition);
 }
 
 .service:hover .service__icon {
-    background: var(--color-light);
-    color: var(--color-primary);
+  background: var(--color-light);
+  color: var(--color-primary);
 }
 
 .service h4 {
-    margin-bottom: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 .Rehansdesign {
-    font-weight: bold;
-    font-size: 1em;
-    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
-    
-    /* Background Clip for Text */
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -ms-background-clip: text;
-    background-clip: text;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(
+    45deg,
+    #db48d8,
+    #a836d8,
+    #cf129d
+  ); /* Softer gradient */
 
-    -webkit-text-fill-color: transparent; /* Gradient text effect */
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+  /* Background Clip for Text */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent; /* Gradient text effect */
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* MEDIA QUERIES (tablets) */
@@ -52,24 +55,21 @@
   }
 }
 
-
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
-    .services__container {
-        gap: 1.5rem;
-    }
+  .services__container {
+    gap: 1.5rem;
+  }
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-    .services__container {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
 
-    .card.service {
-        gap: 1.2rem;
-    }
+  .card.service {
+    gap: 1.2rem;
+  }
 }

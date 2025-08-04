@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import HeaderImage from "../../assets/Rehan/Header3.png";
+import HeaderImage from "../../assets/Rehan/Header2.png";
 import { LuWorkflow } from "react-icons/lu";
 import { IoChatbox } from "react-icons/io5";
-
 import data from "./data";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,13 +20,13 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
         <p data-aos="fade-up text">
-          ❝Full Stack <span className="Rehansdesign"> mern</span> Developer with
-          a knack for weaving Digital Magic using the Dynamic trio of React
+          ❝ Full Stack <span className="Rehansdesign"> mern</span> Developer
+          with a knack for weaving Digital Magic using the Dynamic trio of React
           Node.js and Express Building High performance Scalable websites ♲
           Bringing Businesses into the Digital world Let's innovate Together ❞
         </p>
         <div className="header__cta" data-aos="fade-up">
-          <a href="#contact" className="btn primary">
+          <a href="#location" className="btn primary">
             <IoChatbox></IoChatbox> Let's Talk
           </a>
           <a href="#portfolio" className="btn light">
@@ -41,6 +40,7 @@ const Header = () => {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
+              data-tooltip={item.tooltip}
             >
               {item.icon}
             </a>

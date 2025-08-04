@@ -169,7 +169,7 @@ header {
 .header__profile {
   width: 18rem;
   height: 18rem;
-  border-radius: 50%; /* Perfect circle for the profile image */
+  border-radius: 100%; /* Perfect circle for the profile image */
   overflow: hidden;
   margin-bottom: 1.5rem;
   position: relative;
@@ -292,4 +292,48 @@ header {
     width: 100%; /* Full width for mobile devices */
     font-size: 0.9rem; /* Smaller font for mobile */
   }
+}
+/* Social Icons with Tooltips and Gradient Colors */
+.header__socials a {
+  width: 1.8rem;
+  aspect-ratio: 1/1;
+  background: var(--color-light);
+  color: var(--color-black);
+  display: grid;
+  place-items: center;
+  border-radius: var(--border-radius-3);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Tooltip styles */
+.header__socials a::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--border-radius-1);
+  font-size: 0.7rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.header__socials a:hover::before {
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0.8rem;
+}
+
+/* Hover effect remains the same */
+.header__socials a:hover {
+  background: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  transform: translateX(-0.5rem) scale(1.1);
 }

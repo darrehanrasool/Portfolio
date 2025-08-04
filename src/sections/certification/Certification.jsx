@@ -2,7 +2,7 @@ import React from "react";
 import { FiActivity } from "react-icons/fi";
 import Card from "../../components/Card.jsx";
 import certificationsData from "./data.js";
-// import "./certification.css";
+import "./certification.css";
 export default function Certification() {
   return (
     <section id="certification">
@@ -19,14 +19,13 @@ export default function Certification() {
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
               <p>
-                <strong>Duration:</strong> {item.months} months ({item.hours}{" "}
-                hours)
+                <strong>Duration:</strong> {item.months} months
               </p>
               <a
                 href={item.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="certificate-link"
+                className="link with-icon"
               >
                 View Certificate
               </a>

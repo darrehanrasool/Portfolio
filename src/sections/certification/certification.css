@@ -75,46 +75,42 @@
     gap: 1.2rem;
   }
 }
+.link {
+  /* Typography */
+  display: inline-block;
+  color: #28a745; /* Professional green */
+  font-weight: 500;
+  font-size: 0.95rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-decoration: none;
 
-/* Rehan Design website in free time  */
-/* Description Text Alignment */
-.service__details p {
-  text-align: left; /* Ensure text is left-aligned */
-  margin: 0.5rem 0; /* Add some spacing between paragraphs */
-  line-height: 1.6; /* Improve readability */
-  word-wrap: break-word; /* Prevent long words from overflowing */
-  white-space: pre-line; /* Preserve line breaks */
+  /* Underline animation */
+  background-image: linear-gradient(#28a745, #28a745);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s ease, color 0.2s ease;
+
+  /* Spacing */
+  padding-bottom: 2px; /* Space for underline */
+  margin-top: 4px;
 }
 
-/* Card Layout Adjustments */
-.card.service {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1.5rem; /* Add padding for better spacing */
-  border-radius: var(--border-radius-3); /* Ensure rounded corners */
-  background: var(--color-white); /* Ensure background is consistent */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+.link:hover {
+  color: #218838; /* Slightly darker green */
+  background-size: 100% 2px; /* Animated underline */
+
+  /* Optional: slight upward movement */
+  transform: translateY(-1px);
 }
 
-/* Responsive Design */
-@media screen and (max-width: 1024px) {
-  .services__container {
-    gap: 1.5rem;
-  }
-
-  .card.service {
-    padding: 1rem; /* Adjust padding for tablets */
-  }
+/* If you want to add an icon */
+.link.with-icon::after {
+  content: "→";
+  margin-left: 6px;
+  transition: transform 0.2s ease;
 }
 
-@media screen and (max-width: 600px) {
-  .services__container {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-  }
-
-  .card.service {
-    padding: 1rem; /* Adjust padding for mobile */
-  }
+.link.with-icon:hover::after {
+  transform: translateX(2px);
 }
