@@ -1,4 +1,4 @@
-import AboutImage from "../../assets/Rehan/About3.png";
+import AboutImage from "../../assets/Rehan/About1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import data from "./data";
