@@ -56,12 +56,6 @@ const data = [
   { id: 8, link: "https://yourblog.com", icon: <FaBlog />, tooltip: "Blog" },
   {
     id: 9,
-    link: "https://www.producthunt.com/@darrehan",
-    icon: <FaProductHunt />,
-    tooltip: "Product Hunt",
-  },
-  {
-    id: 10,
     link: "https://www.threads.net/@dar.rehan_",
     icon: <FaThreads />,
     tooltip: "Threads",

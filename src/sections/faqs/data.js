@@ -1,101 +1,99 @@
 const data = [
   {
     id: 1,
-    question:
-      "What technologies do you specialize in for fullstack development﹖",
+    question: "What IBM technologies do you specialize in for AI development﹖",
     answer:
-      "MERN stack (MongoDB, Express, React, Node.js). Next.js for SSR applications. TailwindCSS for responsive designs. Docker for containerization. AWS basics for deployment.",
+      "IBM Watson AI integration. Machine learning deployment. Cognitive services application. Data science workflows. IBM Cloud platform expertise.",
   },
   {
     id: 2,
-    question: "Can you describe your development workflow and methodology﹖",
+    question: "How do you integrate MERN stack with AI/ML solutions﹖",
     answer:
-      "Agile-inspired personal sprints. GitHub for version control. Trello for task tracking. Daily progress reviews. Detailed project documentation.",
+      "React frontends with ML models. Node.js AI API backends. MongoDB for data storage. Real-time predictions. End-to-end AI systems.",
   },
   {
     id: 3,
-    question: "What's been your most challenging academic project and why﹖",
+    question: "What's been your most significant AI research project﹖",
     answer:
-      "Medicinal plant identifier with AI. Combined CNN models with React. Complex data pipeline. Limited resources. Won college tech fest recognition.",
+      "Medicinal plant analyzer with CNN. IEEE published research paper. Healthcare AI applications. Computer vision integration. Academic recognition.",
   },
   {
     id: 4,
-    question: "How do you approach problem-solving when stuck on code﹖",
+    question: "How do you approach machine learning model deployment﹖",
     answer:
-      "Rubber duck debugging first. MDN/Stack Overflow research. University mentor consultation. Break problems into steps. Document solutions for others.",
+      "Containerization with Docker. API endpoint creation. Performance monitoring. Scalability considerations. Continuous model updates.",
   },
   {
     id: 5,
-    question: "What's your experience with database systems from projects﹖",
+    question: "What's your experience with data analytics platforms﹖",
     answer:
-      "MongoDB for course projects. PostgreSQL for lab assignments. Mongoose ORM experience. Basic Redis concepts. University database coursework.",
+      "IBM Data Science workflows. Predictive modeling techniques. Statistical analysis methods. Business intelligence dashboards. Data visualization.",
   },
   {
     id: 6,
-    question: "How do you ensure code quality in your mern projects﹖",
+    question: "How do you ensure AI system reliability in production﹖",
     answer:
-      "ESLint + Prettier setup. Basic Jest unit tests. Peer code reviews. Commenting standards. Consistent naming conventions.",
+      "Rigorous testing pipelines. Model version control. Performance benchmarks. Error handling strategies. Monitoring and alerting.",
   },
   {
     id: 7,
-    question: "What's your experience with deployment and DevOps﹖",
+    question: "What's your DevOps approach for AI applications﹖",
     answer:
-      "Vercel/Netlify for frontends. Render for backends. Docker basics. GitHub Pages. Academic project deployments.",
+      "CI/CD for ML pipelines. Docker container orchestration. AWS cloud deployment. Automated testing. Infrastructure as code.",
   },
   {
     id: 8,
-    question: "How do you handle API development from your learning﹖",
+    question: "How do you handle data preprocessing and management﹖",
     answer:
-      "RESTful API coursework. JWT authentication projects. Postman testing. University API labs. OpenAPI documentation basics.",
+      "Data cleaning pipelines. Feature engineering techniques. Database optimization. Data validation checks. Efficient storage strategies.",
   },
   {
     id: 9,
-    question: "What's your approach to responsive UI and UX design﹖",
+    question: "What's your approach to AI ethics and responsible AI﹖",
     answer:
-      "Mobile-first projects. TailwindCSS practice. Cross-browser testing. Accessibility awareness. Performance best practices.",
+      "Bias detection methods. Privacy preservation techniques. Transparent AI decisions. Ethical guidelines compliance. Fairness in algorithms.",
   },
   {
     id: 10,
-    question: "How do you stay updated with evolving new tech stack﹖",
+    question: "How do you stay updated with AI/ML advancements﹖",
     answer:
-      "Daily tech newsletters. FreeCodeCamp courses. YouTube coding channels. University tech clubs. Personal sandbox projects.",
+      "Research paper reading. IBM certification updates. Tech conference attendance. Online AI communities. Continuous learning projects.",
   },
   {
     id: 11,
-    question:
-      "What tools do you use for collaborative coding and open source﹖",
+    question: "What tools do you use for collaborative AI development﹖",
     answer:
-      "GitHub for team projects. VS Code Live Share. Discord for communication. Google Docs for planning. Zoom for virtual collab.",
+      "GitHub for code sharing. Jupyter notebooks. Team documentation. Version control for models. Communication platforms.",
   },
   {
     id: 12,
-    question: "How do you manage technical debt in academic projects﹖",
+    question: "How do you manage technical debt in AI projects﹖",
     answer:
-      "Post-project refactoring. Instructor feedback. Peer code reviews. Documentation updates. Learning from mistakes.",
+      "Regular code refactoring. Model optimization cycles. Documentation updates. Performance reviews. Architecture improvements.",
   },
   {
     id: 13,
-    question: "What's your experience with testing from coursework﹖",
+    question: "What's your experience with cloud AI services﹖",
     answer:
-      "Jest unit testing basics. React Testing Library intro. Manual API testing. University testing modules. Test-driven learning.",
+      "IBM Watson services. AWS AI/ML tools. Cloud model deployment. Serverless AI functions. Cost optimization strategies.",
   },
   {
     id: 14,
-    question: "How do you approach security in web applications﹖",
+    question: "How do you approach security in AI applications﹖",
     answer:
-      "OWASP Top 10 awareness. Basic input validation. HTTPS implementation. University security coursework. Password hashing practice.",
+      "Secure API endpoints. Data encryption methods. Access control systems. Model protection techniques. Compliance standards.",
   },
   {
     id: 15,
-    question: "What architecture patterns have you learned till now﹖",
+    question: "What AI architecture patterns have you implemented﹖",
     answer:
-      "MVC from coursework. Component-based design. Basic microservices concepts. University project structures. Documentation studies.",
+      "Microservices for AI. Event-driven architectures. Pipeline processing. Real-time inference. Batch processing systems.",
   },
   {
     id: 16,
-    question: "How do you continue growing as a new web developer﹖",
+    question: "How do you grow as an AI and fullstack developer﹖",
     answer:
-      "Daily coding practice. Open-source contributions. Tech meetups. Mentor guidance. Building diverse projects.",
+      "Building AI applications. Learning new frameworks. Research contributions. Professional certifications. Industry collaboration.",
   },
 ];
 

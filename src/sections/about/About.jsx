@@ -30,18 +30,19 @@ const About = () => {
               ❝ In the silence of focused creation , complex systems become
               clear ❞
             </span>{" "}
-            I'm Dar Rehan Rasool , a <span className="Rehansdesign">MERN</span>{" "}
-            developer from Srinagar with a BTech in CSE With 2+ years experience
-            in <span className="Rehansdesign">JavaScript</span>, I build
-            scalable apps where clean code meets practical solutions
+            I'm Dar Rehan Rasool , an{" "}
+            <span className="Rehansdesign">IBM AI & Data</span> specialist with
+            MERN expertise from Srinagar With 1+ years experience in{" "}
+            <span className="Rehansdesign">full-stack development</span>, I
+            build intelligent systems where clean code meets AI solutions
           </p>
 
           <p>
-            My focus spans from React interfaces to Node.js backends, with
+            My focus spans from React interfaces to AI model deployment, with
             special attention to{" "}
-            <span className="Rehansdesign"> healthcare technology </span> where
-            reliability matters most I bridge academic theory with real world
-            development to create systems that works efficiently
+            <span className="Rehansdesign"> machine learning integration </span>{" "}
+            where data insights matter most I bridge IBM technologies with MERN
+            development to create systems that works intelligently
           </p>
 
           <a href={CV} download className="btn primary">
