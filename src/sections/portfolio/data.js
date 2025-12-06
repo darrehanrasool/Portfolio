@@ -90,7 +90,7 @@ const data = [
     id: 9,
     category: "research",
     image: Image9,
-    title: "Agritech",
+    title: "Agriscan",
     desc: "IoT sensor network with ML analytics for precision farming. Crop disease prediction using computer vision. Automated irrigation control system. Yield prediction and resource optimization models.",
     demo: "https://smart-agriculture.example.com",
     github: "https://github.com/yourusername/smart-agriculture-ml",
