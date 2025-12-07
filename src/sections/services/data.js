@@ -3,7 +3,6 @@ import {
   SiReact,
   SiNextdotjs,
   SiNodedotjs,
-  SiExpress,
   SiMongodb,
   SiPostgresql,
   SiDocker,
@@ -13,82 +12,122 @@ import {
   SiRedux,
   SiGraphql,
   SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiCypress,
+  SiJest,
 } from "react-icons/si";
-import { FaServer, FaDatabase, FaMobile } from "react-icons/fa";
+import { FaServer } from "react-icons/fa";
 
 const data = [
-  
+  // Core Web Technologies
   {
     id: 1,
-    icon: <SiJavascript />,
-    title: "JavaScript Development ♻︎",
-    desc: "ES6+ modern syntax. Async programming patterns. Module system implementation. Prototype chain mastery. Performance optimization techniques.",
+    icon: <SiHtml5 />,
+    title: "HTML5 & Web Standards ♻︎",
+    desc: "Semantic markup. Accessibility compliance. SEO optimization. Cross-browser compatibility. Modern web APIs.",
   },
   {
     id: 2,
-    icon: <SiReact />,
-    title: "React.js Development ♻︎",
-    desc: "Component lifecycle management. Hooks system implementation. State and props management. Context API patterns. Performance optimization strategies.",
+    icon: <SiCss3 />,
+    title: "CSS3 & Advanced Styling ♻︎",
+    desc: "Flexbox/Grid layouts. CSS animations. Responsive design. CSS-in-JS. Design system implementation.",
   },
   {
     id: 3,
-    icon: <SiNodedotjs />,
-    title: "Node.js Proficiency ♻︎",
-    desc: "Event loop architecture. Asynchronous programming. Module system management. Stream processing. Server-side development.",
+    icon: <SiTailwindcss />,
+    title: "Tailwind CSS Framework ♻︎",
+    desc: "Utility-first workflow. Responsive utilities. Component extraction. Performance optimization. Custom configurations.",
   },
+  
+  // JavaScript Ecosystem
   {
     id: 4,
-    icon: <SiNextdotjs />,
-    title: "Next.js Proficiency ♻︎",
-    desc: "Server-side rendering implementation. Static site generation. API route development. File-based routing. Performance optimization.",
+    icon: <SiJavascript />,
+    title: "JavaScript (ES6+) ♻︎",
+    desc: "Modern syntax features. Async programming. Functional patterns. Performance optimization. Browser APIs.",
   },
   {
     id: 5,
-    icon: <SiDocker />,
-    title: "Containerization Expertise ♻︎",
-    desc: "Docker container management. Image creation and optimization. Volume management. Networking configuration. Docker Compose orchestration.",
+    icon: <SiTypescript />,
+    title: "TypeScript Development ♻︎",
+    desc: "Type safety. Interface design. Generics. Advanced types. React/Node integration.",
   },
+  
+  // Frontend Frameworks & State
   {
     id: 6,
-    icon: <SiGit />,
-    title: "Version Control Expertise ♻︎",
-    desc: "Git workflow management. Branching strategies. Merge conflict resolution. Repository maintenance. Collaborative development practices.",
+    icon: <SiReact />,
+    title: "React.js Ecosystem ♻︎",
+    desc: "Component architecture. Hooks system. Context API. State management (Redux). Performance optimization.",
   },
   {
     id: 7,
-    icon: <SiGithub />,
-    title: "CI/CD Pipeline ♻︎",
-    desc: "Continuous integration setup. Automated testing pipelines. Deployment automation. Workflow optimization. Release management strategies.",
+    icon: <SiNextdotjs />,
+    title: "Next.js Framework ♻︎",
+    desc: "App Router architecture. SSR/SSG. API routes. Middleware. Performance optimization.",
+  },
+  
+  // Backend Development
+  {
+    id: 8,
+    icon: <SiNodedotjs />,
+    title: "Node.js Backend Development ♻︎",
+    desc: "Event-driven architecture. REST API development (Express.js). Authentication. Middleware. Error handling.",
+  },
+  
+  // Databases
+  {
+    id: 9,
+    icon: <SiMongodb />,
+    title: "MongoDB Database ♻︎",
+    desc: "NoSQL design. Aggregation. Indexing. Transactions. Atlas deployment.",
   },
   {
-    id:10,
-    icon: <FaDatabase />,
-    title: "Database Development ♻︎",
-    desc: "Database design and modeling. Query optimization. Schema migration. Data integrity management. Performance tuning techniques.",
+    id: 10,
+    icon: <SiPostgresql />,
+    title: "PostgreSQL Database ♻︎",
+    desc: "Relational modeling. Complex queries. Performance. ACID compliance. ORM tools.",
   },
   {
     id: 11,
-    icon: <FaServer />,
-    title: "AWS Expertise ♻︎",
-    desc: "Cloud infrastructure management. Service deployment. Resource optimization. Security configuration. Cost management strategies.",
+    icon: <SiGraphql />,
+    title: "GraphQL API Development ♻︎",
+    desc: "Schema design. Resolvers. Apollo ecosystem. Performance. Real-time features.",
   },
+  
+  // Testing
   {
     id: 12,
-    icon: <SiRedux />,
-    title: "Jira Project Management ♻︎",
-    desc: "Agile workflow implementation. Sprint planning. Ticket management. Progress tracking. Team collaboration coordination.",
+    icon: <SiJest />,
+    title: "Unit & Integration Testing ♻︎",
+    desc: "Jest testing framework. React Testing Library. Mock functions. Snapshot testing. Coverage reports.",
   },
   {
     id: 13,
-    icon: <SiGraphql />,
-    title: "Cypress Testing Framework ♻︎",
-    desc: "End-to-end testing implementation. Test automation. CI/CD integration. Cross-browser testing. Performance testing strategies.",
+    icon: <SiCypress />,
+    title: "End-to-End Testing ♻︎",
+    desc: "Cypress framework. Component testing. E2E workflows. CI/CD integration. Test automation.",
   },
+  
+  // DevOps & Deployment
   {
     id: 14,
-    icon: <SiMongodb />,
-    title: "IBM AI Engineer ♻︎",
-    desc: "AI system architecture. Model training optimization. Pipeline development. Production deployment. Performance monitoring.",
+    icon: <SiDocker />,
+    title: "Docker Containerization ♻︎",
+    desc: "Container management. Image optimization. Docker Compose. Multi-stage builds. Deployment strategies.",
+  },
+  {
+    id: 15,
+    icon: <FaServer />,
+    title: "Cloud Deployment & CI/CD ♻︎",
+    desc: "AWS/Vercel deployment. GitHub Actions. Load balancing. Monitoring. Performance optimization.",
+  },
+  {
+    id: 16,
+    icon: <SiGit />,
+    title: "Git & Collaboration Tools ♻︎",
+    desc: "Git workflow strategies. Branch management. Code reviews. Team collaboration. GitHub ecosystem.",
   },
 ];
 

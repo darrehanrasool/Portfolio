@@ -116,3 +116,217 @@
     margin-top: 2rem;
   }
 }
+/* Education Button Styles */
+.about__buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.btn.education-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  min-width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.education-btn:hover:not(.animating) {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 117, 252, 0.4);
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+.btn.education-btn:active {
+  transform: translateY(1px);
+}
+
+.btn.education-btn.animating {
+  animation: pulse 0.8s ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+.education-btn__content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.education-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.btn.education-btn:hover .education-icon {
+  transform: rotate(-15deg) scale(1.2);
+}
+
+.btn.education-btn.animating .education-icon {
+  animation: graduateBounce 0.8s ease;
+}
+
+@keyframes graduateBounce {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-10px) rotate(-20deg); }
+}
+
+/* Sparkle Effect */
+.sparkle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.btn.education-btn:hover .sparkle {
+  animation: sparkleRotate 2s linear infinite;
+  opacity: 0.1;
+}
+
+@keyframes sparkleRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.sparkle::before,
+.sparkle::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sparkle::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.sparkle::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Particle Animation */
+.particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.particle {
+  position: absolute;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: particleFloat linear forwards;
+  opacity: 0;
+}
+
+@keyframes particleFloat {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(
+      calc(var(--tx, 50px) - 50px),
+      calc(var(--ty, -50px))
+    ) scale(0);
+  }
+}
+
+/* Glow Border Effect */
+.btn.education-btn::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc, #6a11cb);
+  border-radius: 52px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn.education-btn:hover::before {
+  opacity: 1;
+  animation: borderGlow 2s linear infinite;
+}
+
+@keyframes borderGlow {
+  0%, 100% { filter: blur(5px) brightness(1); }
+  50% { filter: blur(10px) brightness(1.5); }
+}
+
+/* Loading State */
+.btn.education-btn.animating::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid transparent;
+  border-top-color: white;
+  border-radius: 50%;
+  animation: loadingSpin 0.8s linear infinite;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes loadingSpin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .about__buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .btn.education-btn,
+  .btn.primary {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn.education-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .education-icon {
+    font-size: 1rem;
+  }
+}

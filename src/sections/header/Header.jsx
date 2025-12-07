@@ -20,10 +20,10 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
         <p data-aos="fade-up text">
-          ❝ IBM <span className="Rehansdesign"> AI Engineering </span> with MERN expertise weaving Magic using Machine Learning
-          React Node.js and AI models Building High performance
-          systems Transforming businesses with Data insights Let's innovate
-          Together ❞
+          ❝ A passionate <span className="Rehansdesign">Full-Stack Developer</span> specializing in the MERN stack. 
+          Building high-performance web applications with React, Node.js, and scalable architectures. 
+          Transforming business requirements into efficient, maintainable, and user-centric solutions. 
+          Let's create something impactful together ❞
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#location" className="btn primary">

@@ -1,99 +1,120 @@
 const data = [
+  // UI/UX Questions (5 questions)
   {
     id: 1,
-    question: "What IBM technologies do you specialize in for AI development﹖",
+    category: "uiux",
+    question: "What's your UI/UX design process for enterprise applications?",
     answer:
-      "IBM Watson AI integration. Machine learning deployment. Cognitive services application. Data science workflows. IBM Cloud platform expertise.",
+      "User research and requirement analysis. Wireframing and prototyping in Figma. Design system development and component libraries. User testing and iterative improvements. Accessibility and responsive design implementation.",
   },
   {
     id: 2,
-    question: "How do you integrate MERN stack with AI/ML solutions﹖",
+    category: "uiux",
+    question: "How do you ensure consistent design across complex applications?",
     answer:
-      "React frontends with ML models. Node.js AI API backends. MongoDB for data storage. Real-time predictions. End-to-end AI systems.",
+      "Establishing comprehensive design systems. Creating reusable component libraries. Implementing design tokens and variables. Conducting regular design reviews. Maintaining detailed documentation for consistency.",
   },
   {
     id: 3,
-    question: "What's been your most significant AI research project﹖",
+    category: "uiux",
+    question: "What tools and methodologies do you use for UI/UX work?",
     answer:
-      "Medicinal plant analyzer with CNN. IEEE published research paper. Healthcare AI applications. Computer vision integration. Academic recognition.",
+      "Figma for design and prototyping. Adobe Creative Suite for assets. User journey mapping and personas. Design sprint methodology. Usability testing and A/B testing tools.",
   },
   {
     id: 4,
-    question: "How do you approach machine learning model deployment﹖",
+    category: "uiux",
+    question: "How do you approach responsive and mobile-first design?",
     answer:
-      "Containerization with Docker. API endpoint creation. Performance monitoring. Scalability considerations. Continuous model updates.",
+      "Mobile-first design principles implementation. Flexible grid systems and layouts. Progressive enhancement strategies. Cross-device testing protocols. Performance optimization for mobile.",
   },
   {
     id: 5,
-    question: "What's your experience with data analytics platforms﹖",
+    category: "uiux",
+    question: "What's your experience with accessibility in design?",
     answer:
-      "IBM Data Science workflows. Predictive modeling techniques. Statistical analysis methods. Business intelligence dashboards. Data visualization.",
+      "WCAG 2.1 compliance standards. Screen reader compatibility testing. Color contrast and readability optimization. Keyboard navigation implementation. Accessible form design and validation.",
   },
+
+  // Frontend Questions (5 questions)
   {
     id: 6,
-    question: "How do you ensure AI system reliability in production﹖",
+    category: "frontend",
+    question: "What's your React development approach for large-scale applications?",
     answer:
-      "Rigorous testing pipelines. Model version control. Performance benchmarks. Error handling strategies. Monitoring and alerting.",
+      "Component-based architecture design. State management with Redux/Context. Performance optimization techniques. Code splitting and lazy loading. Testing with Jest and React Testing Library.",
   },
   {
     id: 7,
-    question: "What's your DevOps approach for AI applications﹖",
+    category: "frontend",
+    question: "How do you handle performance optimization in frontend applications?",
     answer:
-      "CI/CD for ML pipelines. Docker container orchestration. AWS cloud deployment. Automated testing. Infrastructure as code.",
+      "Bundle size optimization and code splitting. Image optimization and lazy loading. Memoization and virtualization techniques. Performance monitoring with Lighthouse. Caching strategies implementation.",
   },
   {
     id: 8,
-    question: "How do you handle data preprocessing and management﹖",
+    category: "frontend",
+    question: "What's your experience with modern frontend frameworks and tools?",
     answer:
-      "Data cleaning pipelines. Feature engineering techniques. Database optimization. Data validation checks. Efficient storage strategies.",
+      "React with TypeScript for type safety. Next.js for SSR and SSG applications. State management with Zustand/Redux Toolkit. Build tools like Webpack and Vite. Testing frameworks and CI/CD integration.",
   },
   {
     id: 9,
-    question: "What's your approach to AI ethics and responsible AI﹖",
+    category: "frontend",
+    question: "How do you approach frontend testing and quality assurance?",
     answer:
-      "Bias detection methods. Privacy preservation techniques. Transparent AI decisions. Ethical guidelines compliance. Fairness in algorithms.",
+      "Unit testing with Jest and React Testing Library. Integration and E2E testing with Cypress. Cross-browser compatibility testing. Performance and accessibility testing. Continuous integration testing pipelines.",
   },
   {
     id: 10,
-    question: "How do you stay updated with AI/ML advancements﹖",
+    category: "frontend",
+    question: "What's your strategy for responsive web development?",
     answer:
-      "Research paper reading. IBM certification updates. Tech conference attendance. Online AI communities. Continuous learning projects.",
+      "CSS Grid and Flexbox for layouts. Responsive typography and spacing. Mobile-first CSS methodology. Progressive enhancement techniques. Cross-device testing and debugging.",
   },
+
+  // Backend Questions (6 questions)
   {
     id: 11,
-    question: "What tools do you use for collaborative AI development﹖",
+    category: "backend",
+    question: "What's your approach to building scalable backend APIs with Node.js?",
     answer:
-      "GitHub for code sharing. Jupyter notebooks. Team documentation. Version control for models. Communication platforms.",
+      "RESTful API design and documentation. Authentication and authorization implementation. Database optimization and indexing. Caching strategies with Redis. Error handling and logging systems.",
   },
   {
     id: 12,
-    question: "How do you manage technical debt in AI projects﹖",
+    category: "backend",
+    question: "How do you design and optimize database schemas?",
     answer:
-      "Regular code refactoring. Model optimization cycles. Documentation updates. Performance reviews. Architecture improvements.",
+      "Normalization and denormalization strategies. Index optimization for query performance. Connection pooling and management. Data migration and versioning. Backup and recovery procedures.",
   },
   {
     id: 13,
-    question: "What's your experience with cloud AI services﹖",
+    category: "backend",
+    question: "What's your experience with microservices architecture?",
     answer:
-      "IBM Watson services. AWS AI/ML tools. Cloud model deployment. Serverless AI functions. Cost optimization strategies.",
+      "Service decomposition and boundaries. Inter-service communication patterns. API gateway implementation. Service discovery and load balancing. Distributed tracing and monitoring.",
   },
   {
     id: 14,
-    question: "How do you approach security in AI applications﹖",
+    category: "backend",
+    question: "How do you ensure backend application security?",
     answer:
-      "Secure API endpoints. Data encryption methods. Access control systems. Model protection techniques. Compliance standards.",
-  },
-  {
-    id: 15,
-    question: "What AI architecture patterns have you implemented﹖",
-    answer:
-      "Microservices for AI. Event-driven architectures. Pipeline processing. Real-time inference. Batch processing systems.",
+      "Input validation and sanitization. SQL injection and XSS prevention. JWT authentication and OAuth 2.0. Rate limiting and DDoS protection. Security headers and HTTPS enforcement.",
   },
   {
     id: 16,
-    question: "How do you grow as an AI and fullstack developer﹖",
+    category: "backend",
+    question: "What's your DevOps approach for backend services?",
     answer:
-      "Building AI applications. Learning new frameworks. Research contributions. Professional certifications. Industry collaboration.",
+      "Docker containerization for services. CI/CD pipeline implementation. Cloud deployment on AWS/Azure. Monitoring with Prometheus/Grafana. Infrastructure as code with Terraform.",
+  },
+  {
+    id: 15,
+    category: "backend",
+    question: "How do you handle real-time features in backend systems?",
+    answer:
+      "WebSocket implementation with Socket.io. Real-time data synchronization. Connection management and scaling. Message queuing with Redis/RabbitMQ. Event-driven architecture patterns.",
   },
 ];
 
