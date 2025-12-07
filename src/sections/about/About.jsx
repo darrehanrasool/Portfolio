@@ -31,7 +31,7 @@ const About = () => {
               clear ❞
             </span>{" "}
             I'm Dar Rehan Rasool , an{" "}
-            <span className="Rehansdesign">IBM AI & Data</span> specialist with
+            <span className="Rehansdesign">AI Engineer </span> with
             MERN expertise from Srinagar With 1+ years experience in{" "}
             <span className="Rehansdesign">full-stack development</span>, I
             build intelligent systems where clean code meets AI solutions

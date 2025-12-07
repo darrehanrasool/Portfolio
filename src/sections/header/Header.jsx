@@ -20,9 +20,8 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
         <p data-aos="fade-up text">
-          ❝ IBM <span className="Rehansdesign"> AI & Data</span> Specialist
-          with MERN expertise weaving Magic using Machine Learning
-          React Node.js and AI models Building High performance 
+          ❝ IBM <span className="Rehansdesign"> AI Engineering </span> with MERN expertise weaving Magic using Machine Learning
+          React Node.js and AI models Building High performance
           systems Transforming businesses with Data insights Let's innovate
           Together ❞
         </p>

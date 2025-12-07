@@ -10,40 +10,9 @@ import {
 } from "react-icons/fa";
 
 const certificationsData = [
+
   {
     id: 1,
-    title: "IBM AI Developer | Coursera",
-    desc: "IBM AI development certification covering machine learning implementation, model deployment, Watson integration, and cognitive services application.",
-    pdf: "#",
-    months: 3,
-    icon: <FaDatabase />,
-  },
-  {
-    id: 2,
-    title: "IBM AI Engineering | Coursera",
-    desc: "Advanced AI engineering training covering system architecture, model training optimization, pipeline development, and production deployment strategies.",
-    pdf: "#",
-    months: 3,
-    icon: <FaDatabase />,
-  },
-  {
-    id: 3,
-    title: "IBM Data Science | Coursera",
-    desc: "Data science certification covering statistical analysis, predictive modeling, data visualization, machine learning algorithms, and business insights generation.",
-    pdf: "#",
-    months: 3.5,
-    icon: <FaDatabase />,
-  },
-  {
-    id: 4,
-    title: "IBM Data Analytics | Coursera",
-    desc: "Data analytics training covering analysis techniques, reporting dashboards, business intelligence, data interpretation, and decision support systems.",
-    pdf: "#",
-    months: 2.5,
-    icon: <FaDatabase />,
-  },
-  {
-    id: 5,
     title: "JavaScript Development | Udemy",
     desc: "Mastered modern JavaScript ES6+ features, async programming patterns, module systems, and performance optimization techniques for scalable applications.",
     pdf: "#",
@@ -51,7 +20,7 @@ const certificationsData = [
     icon: <FaJs />,
   },
   {
-    id: 6,
+    id: 2,
     title: "React.js Certification | Udemy",
     desc: "Comprehensive React framework training covering hooks, context API, state management, component lifecycle, and high-performance application development.",
     pdf: "#",
@@ -59,7 +28,7 @@ const certificationsData = [
     icon: <FaReact />,
   },
   {
-    id: 7,
+    id: 3,
     title: "Node.js Backend Mastery | Udemy",
     desc: "Advanced Node.js runtime training covering event loop architecture, asynchronous programming, module systems, and server-side application development.",
     pdf: "#",
@@ -67,7 +36,7 @@ const certificationsData = [
     icon: <FaNodeJs />,
   },
   {
-    id: 8,
+    id: 4,
     title: "Next.js Framework Certification | Udemy",
     desc: "Complete Next.js framework training including server-side rendering, static site generation, API routes, and performance optimization techniques.",
     pdf: "#",
@@ -75,7 +44,7 @@ const certificationsData = [
     icon: <FaReact />,
   },
   {
-    id: 9,
+    id: 5,
     title: "Docker Containerization Expert | Udemy",
     desc: "Professional Docker training covering container management, image optimization, volume management, networking, and Docker Compose orchestration.",
     pdf: "#",
@@ -83,7 +52,7 @@ const certificationsData = [
     icon: <FaDocker />,
   },
   {
-    id: 10,
+    id: 6,
     title: "Git & GitHub Professional | Udemy",
     desc: "Complete version control mastery including branching strategies, merge conflict resolution, collaborative workflows, and repository management.",
     pdf: "#",
@@ -91,7 +60,7 @@ const certificationsData = [
     icon: <FaGitAlt />,
   },
   {
-    id: 11,
+    id: 7,
     title: "CI/CD Pipeline Development | Udemy",
     desc: "Continuous integration and delivery training covering automated testing, deployment automation, workflow optimization, and release management strategies.",
     pdf: "#",
@@ -99,7 +68,7 @@ const certificationsData = [
     icon: <FaServer />,
   },
   {
-    id: 12,
+    id: 8,
     title: "Database Development & Design | Udemy",
     desc: "Comprehensive database training covering schema design, query optimization, data modeling, migration strategies, and performance tuning.",
     pdf: "#",
@@ -107,7 +76,7 @@ const certificationsData = [
     icon: <FaDatabase />,
   },
   {
-    id: 13,
+    id: 9,
     title: "AWS Cloud Professional | Udemy",
     desc: "Amazon Web Services certification covering cloud infrastructure, service deployment, resource optimization, security configuration, and cost management.",
     pdf: "#",
@@ -115,7 +84,7 @@ const certificationsData = [
     icon: <FaAws />,
   },
   {
-    id: 14,
+    id: 10,
     title: "Jira Project Management | Udemy",
     desc: "Agile project management training covering sprint planning, ticket management, progress tracking, workflow implementation, and team collaboration.",
     pdf: "#",
@@ -123,20 +92,20 @@ const certificationsData = [
     icon: <FaDatabase />,
   },
   {
-    id: 15,
+    id: 11,
     title: "Cypress Testing Framework | Udemy",
     desc: "End-to-end testing certification covering test automation, CI/CD integration, cross-browser testing, and performance testing strategies.",
     pdf: "#",
     months: 2,
     icon: <FaJs />,
   },
-  {
-    id: 16,
-    title: "Linux System Administration | Udemy",
-    desc: "Professional Linux training covering server configuration, shell scripting, process management, security hardening, and system maintenance.",
+   {
+    id: 12,
+    title: "IBM AI Engineering | Coursera",
+    desc: "Advanced AI engineering training covering system architecture, model training optimization, pipeline development, and production deployment strategies.",
     pdf: "#",
-    months: 2,
-    icon: <FaServer />,
+    months: 3,
+    icon: <FaDatabase />,
   },
 ];
 
