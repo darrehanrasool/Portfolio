@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HeaderImage from "../../assets/Rehan/Header1.png";
+import HeaderImage from "../../assets/Rehan/Rehan1-modified.png";
 import { LuWorkflow } from "react-icons/lu";
 import { IoChatbox } from "react-icons/io5";
 import data from "./data";
