@@ -85,7 +85,7 @@ const About = () => {
             >
               <div className="education-btn__content">
                 <FaGraduationCap className="education-icon" />
-                <span>View Education</span>
+                <span>Research</span>
                 <div className="sparkle"></div>
               </div>
               
