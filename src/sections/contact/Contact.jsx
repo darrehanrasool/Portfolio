@@ -124,8 +124,8 @@ const Contact = () => {
     <section id="location">
       <h2>Get In Touch </h2>
       <p>
-        ❝ Send me a <span className="Rehansdesign">Message</span> via given
-        options ❞
+        ➤ Send me a <span className="Rehansdesign">Message</span> via given
+        options 
       </p>
 
       <div className="contact-content">

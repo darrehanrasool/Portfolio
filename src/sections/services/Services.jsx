@@ -7,7 +7,7 @@ const Services = () => {
     <section id="services">
       <h2> ⚡︎ My Expertise </h2>
       <p>
-        Building <span className="Rehansdesign"> cutting-edge</span> solutions
+      ➤  Building <span className="Rehansdesign"> cutting-edge</span> solutions
         across multiple domains of technology{" "}
       </p>
       <div className="container services__container" data-aos="fade-up">

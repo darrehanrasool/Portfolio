@@ -18,8 +18,8 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2> ⚡︎ Testimonials </h2>
       <p>
-        ❝ These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
-        from some of my clients ❞
+         ⌲ These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
+        from some of my clients 
       </p>
       <div className="container">
         <Swiper

@@ -20,10 +20,10 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
         <p data-aos="fade-up text">
-          ❝ A passionate <span className="Rehansdesign">Full-Stack Developer</span> specializing in the MERN stack. 
+          A passionate <span className="Rehansdesign"> Developer</span> specializing in the MERN stack. 
           Building high-performance web applications with React, Node.js, and scalable architectures. 
           Transforming business requirements into efficient, maintainable, and user-centric solutions. 
-          Let's create something impactful together ❞
+          Let's create something impactful together
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#location" className="btn primary">

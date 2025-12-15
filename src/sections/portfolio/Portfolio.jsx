@@ -26,7 +26,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>⚡︎ Recent Projects</h2>
       <p>
-        use <span className="Rehansdesign"> toggle </span> between different{" "}
+        ➤ use <span className="Rehansdesign"> toggle </span> between different{" "}
         <span className="Rehansdesign"> categories</span>
       </p>
 

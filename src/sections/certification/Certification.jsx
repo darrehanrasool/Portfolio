@@ -8,8 +8,8 @@ export default function Certification() {
     <section id="certification">
       <h2>⚡︎ Certifications</h2>
       <p>
-        ❝<span className="Rehansdesign">Certifications</span> showcase expertise
-        across multiple domains of technology❞
+        ➤ <span className="Rehansdesign">Certifications</span> showcase expertise
+        across multiple domains of technology
       </p>
       <div className="container services__container" data-aos="fade-up">
         {certificationsData.map((item) => (
