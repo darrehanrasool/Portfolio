@@ -75,38 +75,6 @@ const About = () => {
             <a href={CV} download className="btn primary">
               Download Resume ⌘ <HiDownload />
             </a>
-            
-            {/* Animated Education Button */}
-            <button 
-              className={`btn education-btn ${isAnimating ? 'animating' : ''}`}
-              onClick={handleEducationClick}
-              disabled={isAnimating}
-              aria-label="View Education Portfolio"
-            >
-              <div className="education-btn__content">
-                <FaGraduationCap className="education-icon" />
-                <span>Research</span>
-                <div className="sparkle"></div>
-              </div>
-              
-              {/* Particle Animation Container */}
-              <div className="particles-container">
-                {particles.map((particle) => (
-                  <div
-                    key={particle.id}
-                    className="particle"
-                    style={{
-                      left: `${particle.x}%`,
-                      top: `${particle.y}%`,
-                      width: `${particle.size}px`,
-                      height: `${particle.size}px`,
-                      animationDuration: `${particle.duration}s`,
-                      animationDelay: `${Math.random() * 0.3}s`
-                    }}
-                  />
-                ))}
-              </div>
-            </button>
           </div>
         </div>
       </div>
