@@ -18,13 +18,13 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3 data-aos="fade-up">Dar Rehan Rasool</h3>
+        <h3 data-aos="fade-up">Dar Rehan Rasool </h3>
         <p data-aos="fade-up">
           A passionate <span className="Rehansdesign">MERN Developer</span>{" "}
           specializing in JavaScript high performance web applications. I
           leverage React, Node.js , and scalable architectures to transform
           business requirements into efficient, maintainable, and user-centric
-          solutions. Let's create something impactful together.
+          solutions. Let's create something impactful together 〄
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#location" className="btn primary">

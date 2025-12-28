@@ -1,5 +1,6 @@
 import AboutImage from "../../assets/Rehan/About1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
+import CoverLetter from "../../assets/certifications/resume.pdf"; // Add your cover letter file
 import { HiDownload } from "react-icons/hi";
 import { FaGraduationCap } from "react-icons/fa";
 import data from "./data";
@@ -13,7 +14,7 @@ const About = () => {
 
   const handleEducationClick = () => {
     setIsAnimating(true);
-    
+
     // Create particle animation
     const newParticles = [];
     for (let i = 0; i < 20; i++) {
@@ -22,11 +23,11 @@ const About = () => {
         x: Math.random() * 100,
         y: Math.random() * 100,
         size: Math.random() * 10 + 5,
-        duration: Math.random() * 0.5 + 0.5
+        duration: Math.random() * 0.5 + 0.5,
       });
     }
     setParticles(newParticles);
-    
+
     // Redirect after animation
     setTimeout(() => {
       window.open("https://your-education-spa-website.com", "_blank");
@@ -56,24 +57,33 @@ const About = () => {
           </div>
           <p>
             <span className="Rehansdesign">
-              ❝ In the silence of focused creation , complex systems become clear ❞
+              ❝ In the silence of focused creation , complex systems become
+              clear ❞
             </span>{" "}
             I'm Dar Rehan Rasool, a{" "}
             <span className="Rehansdesign">Full-Stack Developer </span> with
             MERN expertise from Srinagar. With 1+ years experience in{" "}
             <span className="Rehansdesign">end-to-end web development</span>, I
-            build scalable applications where robust architecture meets seamless user experiences.
+            build scalable applications where robust architecture meets seamless
+            user experiences.
           </p>
 
           <p>
-            My expertise spans from React-powered frontends to Node.js backends, with special attention to{" "}
+            My expertise spans from React-powered frontends to Node.js backends,
+            with special attention to{" "}
             <span className="Rehansdesign"> scalable system architecture </span>{" "}
-            where performance matters most. I leverage modern JavaScript ecosystems to create applications that are both powerful and maintainable.
+            where performance matters most. I leverage modern JavaScript
+            ecosystems to create applications that are both powerful and
+            maintainable.
           </p>
 
+          {/* Updated buttons section */}
           <div className="about__buttons">
             <a href={CV} download className="btn primary">
               Download Resume ⌘ <HiDownload />
+            </a>
+            <a href={CoverLetter} download className="btn primary">
+              Download Letter ⌘ <HiDownload />
             </a>
           </div>
         </div>

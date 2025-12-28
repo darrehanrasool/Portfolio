@@ -125,7 +125,7 @@ const Contact = () => {
       <h2>Get In Touch </h2>
       <p>
         ➤ Send me a <span className="Rehansdesign">Message</span> via given
-        options 
+        options
       </p>
 
       <div className="contact-content">
