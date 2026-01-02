@@ -12,30 +12,6 @@ const About = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const [particles, setParticles] = useState([]);
 
-  const handleEducationClick = () => {
-    setIsAnimating(true);
-
-    // Create particle animation
-    const newParticles = [];
-    for (let i = 0; i < 20; i++) {
-      newParticles.push({
-        id: i,
-        x: Math.random() * 100,
-        y: Math.random() * 100,
-        size: Math.random() * 10 + 5,
-        duration: Math.random() * 0.5 + 0.5,
-      });
-    }
-    setParticles(newParticles);
-
-    // Redirect after animation
-    setTimeout(() => {
-      window.open("https://your-education-spa-website.com", "_blank");
-      setIsAnimating(false);
-      setParticles([]);
-    }, 800);
-  };
-
   return (
     <section id="about" data-aos="fade-in">
       <div className="container about__container">

@@ -17,7 +17,7 @@ import {
   SiCypress,
   SiJest,
 } from "react-icons/si";
-import { FaServer } from "react-icons/fa";
+import { FaServer, FaBrain, FaApple } from "react-icons/fa";
 
 const data = [
   // Core Web Technologies
@@ -39,7 +39,7 @@ const data = [
     title: "Tailwind CSS Framework ♻︎",
     desc: "Utility-first workflow. Responsive utilities. Component extraction. Performance optimization. Custom configurations.",
   },
-  
+
   // JavaScript Ecosystem
   {
     id: 4,
@@ -53,7 +53,7 @@ const data = [
     title: "TypeScript Development ♻︎",
     desc: "Type safety. Interface design. Generics. Advanced types. React/Node integration.",
   },
-  
+
   // Frontend Frameworks & State
   {
     id: 6,
@@ -67,7 +67,7 @@ const data = [
     title: "Next.js Framework ♻︎",
     desc: "App Router architecture. SSR/SSG. API routes. Middleware. Performance optimization.",
   },
-  
+
   // Backend Development
   {
     id: 8,
@@ -75,7 +75,7 @@ const data = [
     title: "Node.js Backend Development ♻︎",
     desc: "Event-driven architecture. REST API development (Express.js). Authentication. Middleware. Error handling.",
   },
-  
+
   // Databases
   {
     id: 9,
@@ -95,7 +95,7 @@ const data = [
     title: "GraphQL API Development ♻︎",
     desc: "Schema design. Resolvers. Apollo ecosystem. Performance. Real-time features.",
   },
-  
+
   // Testing
   {
     id: 12,
@@ -109,7 +109,7 @@ const data = [
     title: "End-to-End Testing ♻︎",
     desc: "Cypress framework. Component testing. E2E workflows. CI/CD integration. Test automation.",
   },
-  
+
   // DevOps & Deployment
   {
     id: 14,
@@ -128,6 +128,20 @@ const data = [
     icon: <SiGit />,
     title: "Git & Collaboration Tools ♻︎",
     desc: "Git workflow strategies. Branch management. Code reviews. Team collaboration. GitHub ecosystem.",
+  },
+
+  // Mobile & AI
+  {
+    id: 17,
+    icon: <FaApple />,
+    title: "iOS Development ♻︎",
+    desc: "Swift/SwiftUI. UIKit. App architecture. Core Data. App Store deployment. Push notifications.",
+  },
+  {
+    id: 18,
+    icon: <FaBrain />,
+    title: "AI Agents & RAG Development ♻︎",
+    desc: "Agentic AI systems. RAG pipelines.Tool integration, Multi-agent orchestration.",
   },
 ];
 

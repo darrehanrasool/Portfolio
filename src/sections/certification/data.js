@@ -7,6 +7,8 @@ import {
   FaDocker,
   FaGitAlt,
   FaServer,
+  FaApple,
+  FaBrain,
 } from "react-icons/fa";
 
 const certificationsData = [
@@ -137,6 +139,22 @@ const certificationsData = [
     pdf: "#",
     months: 1.5,
     icon: <FaGitAlt />,
+  },
+  {
+    id: 17,
+    title: "iOS Development with Swift | Udemy",
+    desc: "Swift/SwiftUI fundamentals. UIKit framework. App architecture patterns. Core Data management. App Store deployment. Push notifications.",
+    pdf: "#",
+    months: 3,
+    icon: <FaApple />,
+  },
+  {
+    id: 18,
+    title: "AI Agents & RAG Development | Udemy",
+    desc: "Agentic AI systems. RAG pipelines implementation. Vector databases. LangChain/LlamaIndex frameworks. Tool integration. Multi-agent orchestration.",
+    pdf: "#",
+    months: 3,
+    icon: <FaBrain />,
   },
 ];
 
