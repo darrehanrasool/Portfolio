@@ -25,7 +25,7 @@ const Header = () => {
           leverage React, Node.js , and scalable architectures to transform
           business requirements into efficient, maintainable, and user-centric
           solutions. Let's create something impactful together !{" "}
-          <span className="Rehansdesign">MERN IOS & AI Researcher ®</span>
+          <span className="Rehansdesign">MERN IOS & AI Researcher </span>
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#location" className="btn primary">
