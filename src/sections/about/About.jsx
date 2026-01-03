@@ -1,4 +1,4 @@
-import AboutImage from "../../assets/Rehan/About1.jpg";
+import AboutImage from "../../assets/Rehan/About4.png";
 import CV from "../../assets/certifications/resume.pdf";
 import CoverLetter from "../../assets/certifications/resume.pdf"; // Add your cover letter file
 import { HiDownload } from "react-icons/hi";
