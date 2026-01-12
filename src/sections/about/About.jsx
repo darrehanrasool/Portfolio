@@ -1,4 +1,5 @@
-import AboutImage from "../../assets/Rehan/About4.png";
+/* eslint-disable no-unused-vars */
+import AboutImage from "../../assets/Rehan/About1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
 import CoverLetter from "../../assets/certifications/resume.pdf"; // Add your cover letter file
 import { HiDownload } from "react-icons/hi";
@@ -17,7 +18,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__left">
           <div className="about__portrait">
-            <img src={AboutImage} alt="About Image" />
+            <img src={AboutImage} alt="" />
           </div>
         </div>
         <div className="about__right">

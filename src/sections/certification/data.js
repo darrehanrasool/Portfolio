@@ -142,5 +142,4 @@ const certificationsData = [
     icon: <FaBrain />,
   },
 ];
-
 export default certificationsData;
