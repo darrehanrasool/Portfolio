@@ -1,7 +1,7 @@
 import Image1 from "../../assets/Projects/project1.png";
 import Image2 from "../../assets/Projects/project2.png";
 import Image3 from "../../assets/Projects/project3.png";
-import Image4 from "../../assets/Projects/project4.jpg";
+import Image4 from "../../assets/Projects/project4.png";
 import Image5 from "../../assets/Projects/project8.jpg";
 import Image6 from "../../assets/Projects/project6.jpg";
 import Image7 from "../../assets/Projects/project6.jpg";
@@ -14,21 +14,22 @@ const data = [
   {
     id: 1,
     category: "Frontend",
-    image: Image2,
-    title: "Git Guide UI / UX",
-    desc: "Modern Git learning interface designed with HTML, CSS, and JavaScript, focused on clear UI/UX, visual explanations, and structured content for version control concepts.",
-    demo: "https://git-five-ochre-96.vercel.app/",
-    github: "https://github.com/darrehanrasool/Git",
-  },
-  {
-    id: 2,
-    category: "Frontend",
     image: Image1,
     title: "Almond Store Landing Page",
     desc: "Responsive landing page for a shop built using pure HTML, CSS, and JavaScript with clean structure, modern layout, smooth interactions, and mobile-first design principles.",
     demo: "https://almond-rho.vercel.app/",
     github: "https://github.com/darrehanrasool/Almond",
   },
+  {
+    id: 2,
+    category: "Frontend",
+    image: Image2,
+    title: "Git Guide UI / UX",
+    desc: "Modern Git learning interface designed with HTML, CSS, and JavaScript, focused on clear UI/UX, visual explanations, and structured content for version control concepts.",
+    demo: "https://git-five-ochre-96.vercel.app/",
+    github: "https://github.com/darrehanrasool/Git",
+  },
+
   {
     id: 3,
     category: "Frontend",
@@ -55,17 +56,6 @@ const data = [
     desc: "Property listing website with search filters, booking UI, agent profiles, and virtual tours.",
     demo: "https://mern-realestate.example.com",
     github: "https://github.com/yourusername/mern-realestate",
-  },
-
-  // ================= BACKEND =================
-  {
-    id: 6,
-    category: "Backend",
-    image: Image6,
-    title: "Food Delivery App Backend",
-    desc: "Node.js & Express backend with order management, payments, real-time tracking, and APIs.",
-    demo: "https://mern-fooddelivery.example.com",
-    github: "https://github.com/yourusername/mern-food-delivery",
   },
 
   // ================= IOS =================
@@ -99,7 +89,7 @@ const data = [
   {
     id: 10,
     category: "IOS",
-    image: Image1,
+    image: Image4,
     title: "Weather Dashboard",
     desc: "Weather app with live forecasts, maps, widgets, alerts, and dark mode UI.",
     demo: "https://apps.apple.com/weather-dashboard",
@@ -129,10 +119,10 @@ const data = [
     id: 13,
     category: "Backend",
     image: Image4,
-    title: "AI Chatbot Assistant",
-    desc: "RAG-based chatbot with vector embeddings, LangChain, and context-aware conversations.",
-    demo: "https://ai-chatbot.example.com",
-    github: "https://github.com/yourusername/ai-chatbot",
+    title: "Herbalist",
+    desc: "Deep learning–based AI model for medicinal plant identification and classification. Integrates AI with herbal sciences to support research and drug discovery.",
+    demo: "https://herbalist.onrender.com/",
+    github: "https://github.com/darrehanrasool/Herbalist",
   },
   {
     id: 14,
