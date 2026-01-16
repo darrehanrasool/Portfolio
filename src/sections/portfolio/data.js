@@ -10,23 +10,24 @@ import Image9 from "../../assets/Projects/project8.jpg";
 
 const data = [
   // ================= FRONTEND =================
+
   {
     id: 1,
-    category: "Frontend",
-    image: Image1,
-    title: "Almond Store Landing Page",
-    desc: "Responsive landing page for a shop built using pure HTML, CSS, and JavaScript with clean structure, modern layout, smooth interactions, and mobile-first design principles.",
-    demo: "https://almond-rho.vercel.app/",
-    github: "https://github.com/darrehanrasool/Almond",
-  },
-  {
-    id: 2,
     category: "Frontend",
     image: Image2,
     title: "Git Guide UI / UX",
     desc: "Modern Git learning interface designed with HTML, CSS, and JavaScript, focused on clear UI/UX, visual explanations, and structured content for version control concepts.",
     demo: "https://git-five-ochre-96.vercel.app/",
     github: "https://github.com/darrehanrasool/Git",
+  },
+  {
+    id: 2,
+    category: "Frontend",
+    image: Image1,
+    title: "Almond Store Landing Page",
+    desc: "Responsive landing page for a shop built using pure HTML, CSS, and JavaScript with clean structure, modern layout, smooth interactions, and mobile-first design principles.",
+    demo: "https://almond-rho.vercel.app/",
+    github: "https://github.com/darrehanrasool/Almond",
   },
   {
     id: 3,
