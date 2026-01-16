@@ -1,2 +1,4 @@
 node_modules/
+.DS_Storebuild/
 .DS_Store
+*.DS_Store
