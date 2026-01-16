@@ -7,8 +7,7 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { SiPeerlist } from "react-icons/si";
-import { FaBlog, FaProductHunt, FaCloud } from "react-icons/fa";
-import { FaThreads } from "react-icons/fa6";
+import { FaThreads, FaCloud, FaBlog } from "react-icons/fa6";
 import { DiGitBranch } from "react-icons/di";
 import { IoShareSocialOutline } from "react-icons/io5";
 
