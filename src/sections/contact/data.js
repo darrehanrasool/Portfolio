@@ -1,6 +1,5 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { SiPeerlist } from "react-icons/si";
 
 export const socialContacts = [
   {

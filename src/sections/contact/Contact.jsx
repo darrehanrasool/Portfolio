@@ -1,8 +1,6 @@
 import { useEffect, useState, useRef } from "react";
-import { FiClock, FiPhone, FiMapPin } from "react-icons/fi";
-import { FaLinkedinIn, FaWhatsapp, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { SiPeerlist, SiLeetcode } from "react-icons/si";
 import "./contact.css";
 
 const messages = [
@@ -140,12 +138,12 @@ const Contact = () => {
                 contact.link.includes("mailto")
                   ? "Email"
                   : contact.link.includes("peerlist")
-                  ? "Peerlist"
-                  : contact.link.includes("whatsapp")
-                  ? "WhatsApp"
-                  : contact.link.includes("linkedin")
-                  ? "LinkedIn"
-                  : contact.link.includes("github")
+                    ? "Peerlist"
+                    : contact.link.includes("whatsapp")
+                      ? "WhatsApp"
+                      : contact.link.includes("linkedin")
+                        ? "LinkedIn"
+                        : contact.link.includes("github")
               }
             >
               {contact.icon}

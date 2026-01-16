@@ -3,16 +3,11 @@ import AboutImage from "../../assets/Rehan/About1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
 import CoverLetter from "../../assets/certifications/resume.pdf"; // Add your cover letter file
 import { HiDownload } from "react-icons/hi";
-import { FaGraduationCap } from "react-icons/fa";
 import data from "./data";
 import Card from "../../components/Card";
 import "./about.css";
-import { useState } from "react";
 
 const About = () => {
-  const [isAnimating, setIsAnimating] = useState(false);
-  const [particles, setParticles] = useState([]);
-
   return (
     <section id="about" data-aos="fade-in">
       <div className="container about__container">
