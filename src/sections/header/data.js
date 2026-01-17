@@ -32,10 +32,11 @@ const data = [
   },
   {
     id: 4,
-    link: "https://orcid.org/0009-0004-6426-5195",
-    icon: <DiGitBranch />,
-    tooltip: "ORCID",
+    link: "https://www.youtube.com/@darrehanrasool",
+    icon: <AiFillYoutube />,
+    tooltip: "YouTube",
   },
+
   {
     id: 5,
     link: "https://www.facebook.com/dar.rehan.rasool/",
@@ -74,9 +75,9 @@ const data = [
   },
   {
     id: 11,
-    link: "https://www.youtube.com/@darrehanrasool",
-    icon: <AiFillYoutube />,
-    tooltip: "YouTube",
+    link: "https://orcid.org/0009-0004-6426-5195",
+    icon: <DiGitBranch />,
+    tooltip: "ORCID",
   },
   {
     id: 12,
