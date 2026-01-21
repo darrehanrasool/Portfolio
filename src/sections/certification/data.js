@@ -7,8 +7,6 @@ import {
   FaDocker,
   FaGitAlt,
   FaServer,
-  FaApple,
-  FaBrain,
 } from "react-icons/fa";
 import { SiJira } from "react-icons/si";
 
@@ -31,11 +29,11 @@ const certificationsData = [
   },
   {
     id: 3,
-    title: "TypeScript Development | Udemy",
-    desc: "Static typing. Interfaces and generics. Advanced types. Scalable application design. React and Node.js integration.",
+    title: "Node.js Backend Development | Udemy",
+    desc: "Event-driven architecture. RESTful APIs. Authentication & authorization. Middleware patterns. Error handling.",
     pdf: "#",
-    months: 2,
-    icon: <FaJs />,
+    months: 2.5,
+    icon: <FaNodeJs />,
   },
   {
     id: 4,
@@ -55,19 +53,19 @@ const certificationsData = [
   },
   {
     id: 6,
-    title: "Node.js Backend Development | Udemy",
-    desc: "Event-driven architecture. RESTful APIs. Authentication & authorization. Middleware patterns. Error handling.",
+    title: "TypeScript Development | Udemy",
+    desc: "Static typing. Interfaces and generics. Advanced types. Scalable application design. React and Node.js integration.",
     pdf: "#",
-    months: 2.5,
-    icon: <FaNodeJs />,
+    months: 2,
+    icon: <FaJs />,
   },
   {
     id: 7,
-    title: "MongoDB Database | Udemy",
-    desc: "NoSQL schema design. Aggregation pipelines. Indexing strategies. Transactions. MongoDB Atlas deployment.",
+    title: "Jira & Agile Project Management | Udemy",
+    desc: "Agile and Scrum workflows. Sprint planning. Issue and backlog management. Kanban boards. Team collaboration and reporting.",
     pdf: "#",
-    months: 2,
-    icon: <FaDatabase />,
+    months: 1,
+    icon: <SiJira />,
   },
   {
     id: 8,
@@ -117,29 +115,6 @@ const certificationsData = [
     months: 1.5,
     icon: <FaGitAlt />,
   },
-  {
-    id: 14,
-    title: "Jira & Agile Project Management | Udemy",
-    desc: "Agile and Scrum workflows. Sprint planning. Issue and backlog management. Kanban boards. Team collaboration and reporting.",
-    pdf: "#",
-    months: 1,
-    icon: <SiJira />,
-  },
-  {
-    id: 15,
-    title: "iOS Development with Swift | Udemy",
-    desc: "Swift & SwiftUI fundamentals. UIKit framework. App architecture. Core Data. App Store deployment.",
-    pdf: "#",
-    months: 3,
-    icon: <FaApple />,
-  },
-  {
-    id: 16,
-    title: "AI Agents & RAG Development | Udemy",
-    desc: "Agentic AI systems. Retrieval-Augmented Generation (RAG). Vector databases. LangChain & LlamaIndex. Multi-agent workflows.",
-    pdf: "#",
-    months: 3,
-    icon: <FaBrain />,
-  },
 ];
+
 export default certificationsData;

@@ -3,7 +3,6 @@ import {
   SiReact,
   SiNextdotjs,
   SiNodedotjs,
-  SiMongodb,
   SiPostgresql,
   SiDocker,
   SiGit,
@@ -13,7 +12,7 @@ import {
   SiCypress,
   SiJest,
 } from "react-icons/si";
-import { FaServer, FaBrain, FaApple } from "react-icons/fa";
+import { FaServer } from "react-icons/fa";
 
 const data = [
   // Core Web Technologies
@@ -31,14 +30,16 @@ const data = [
     title: "JavaScript (ES6+) ♻︎",
     desc: "Modern ES6+ syntax. Asynchronous programming. Functional patterns. Performance optimization. Browser APIs.",
   },
+
+  // Backend
   {
     id: 3,
-    icon: <SiTypescript />,
-    title: "TypeScript Development ♻︎",
-    desc: "Type safety. Interface design. Generics. Advanced types. Scalable React and Node.js integration.",
+    icon: <SiNodedotjs />,
+    title: "Node.js Backend Development ♻︎",
+    desc: "Event-driven architecture. RESTful API development (Express.js). Authentication. Middleware. Error handling.",
   },
 
-  // Frontend Frameworks & State
+  // Frontend Frameworks
   {
     id: 4,
     icon: <SiReact />,
@@ -52,29 +53,21 @@ const data = [
     desc: "App Router architecture. Server-side rendering (SSR). Static site generation (SSG). API routes. Middleware.",
   },
 
-  // Backend Development
+  // Language & APIs
   {
     id: 6,
-    icon: <SiNodedotjs />,
-    title: "Node.js Backend Development ♻︎",
-    desc: "Event-driven architecture. RESTful API development (Express.js). Authentication. Middleware. Error handling.",
+    icon: <SiTypescript />,
+    title: "TypeScript Development ♻︎",
+    desc: "Type safety. Interface design. Generics. Advanced types. Scalable React and Node.js integration.",
   },
-
-  // Databases
   {
     id: 7,
-    icon: <SiMongodb />,
-    title: "MongoDB Database ♻︎",
-    desc: "NoSQL schema design. Aggregation pipelines. Indexing strategies. Transactions. MongoDB Atlas deployment.",
-  },
-  {
-    id: 8,
     icon: <SiPostgresql />,
     title: "PostgreSQL Database ♻︎",
     desc: "Relational modeling. Complex SQL queries. Performance tuning. ACID compliance. ORM tools.",
   },
   {
-    id: 9,
+    id: 8,
     icon: <SiGraphql />,
     title: "GraphQL API Development ♻︎",
     desc: "Schema design. Resolver implementation. Apollo ecosystem. Performance optimization. Real-time features.",
@@ -82,13 +75,13 @@ const data = [
 
   // Testing
   {
-    id: 10,
+    id: 9,
     icon: <SiJest />,
     title: "Unit & Integration Testing ♻︎",
     desc: "Jest framework. React Testing Library. Mocking strategies. Snapshot testing. Coverage reporting.",
   },
   {
-    id: 11,
+    id: 10,
     icon: <SiCypress />,
     title: "End-to-End Testing ♻︎",
     desc: "Cypress E2E testing. Component testing. CI/CD integration. Test automation workflows.",
@@ -96,36 +89,22 @@ const data = [
 
   // DevOps & Deployment
   {
-    id: 12,
+    id: 11,
     icon: <SiDocker />,
     title: "Docker Containerization ♻︎",
     desc: "Docker images and containers. Docker Compose. Multi-stage builds. Environment isolation.",
   },
   {
-    id: 13,
+    id: 12,
     icon: <FaServer />,
     title: "Cloud Deployment & CI/CD ♻︎",
     desc: "AWS and Vercel deployment. GitHub Actions. CI/CD pipelines. Monitoring and scalability.",
   },
   {
-    id: 14,
+    id: 13,
     icon: <SiGit />,
     title: "Git & Collaboration Tools ♻︎",
     desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
-  },
-
-  // Mobile & AI
-  {
-    id: 15,
-    icon: <FaApple />,
-    title: "iOS Development ♻︎",
-    desc: "Swift and SwiftUI. UIKit framework. App architecture. Core Data. App Store deployment.",
-  },
-  {
-    id: 16,
-    icon: <FaBrain />,
-    title: "AI Agents & RAG Development ♻︎",
-    desc: "Agentic AI systems. Retrieval-Augmented Generation (RAG). Vector databases. Tool integration. Multi-agent orchestration.",
   },
 ];
 
