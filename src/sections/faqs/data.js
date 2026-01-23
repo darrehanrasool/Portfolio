@@ -1,120 +1,128 @@
 const data = [
-  // UI/UX Questions (5 questions)
+  // UI/UX (6)
   {
     id: 1,
     category: "uiux",
-    question: "What's your UI/UX design process for enterprise applications?",
+    question:
+      "How do you approach UI UX design decisions in web applications ︖",
     answer:
-      "User research and requirement analysis. Wireframing and prototyping in Figma. Design system development and component libraries. User testing and iterative improvements. Accessibility and responsive design implementation.",
+      "I begin by understanding user goals and requirements clearly. I design layouts using Canva and structured visual planning. I translate designs into clean HTML and CSS structures. I enhance interactions using JavaScript and Bootstrap components. I refine designs through testing and iterative improvements.",
   },
   {
     id: 2,
     category: "uiux",
-    question: "How do you ensure consistent design across complex applications?",
+    question:
+      "How do you maintain consistency across product interfaces design︖",
     answer:
-      "Establishing comprehensive design systems. Creating reusable component libraries. Implementing design tokens and variables. Conducting regular design reviews. Maintaining detailed documentation for consistency.",
+      "I follow consistent spacing color and typography rules. I reuse Bootstrap components for uniform structure. I apply common layout patterns across all pages. I maintain reusable CSS classes for styling consistency. I review interfaces regularly to avoid visual mismatches.",
   },
   {
     id: 3,
     category: "uiux",
-    question: "What tools and methodologies do you use for UI/UX work?",
+    question: "What tools support your UI UX design workflow︖",
     answer:
-      "Figma for design and prototyping. Adobe Creative Suite for assets. User journey mapping and personas. Design sprint methodology. Usability testing and A/B testing tools.",
+      "I use Canva for visual planning and design direction. I build interfaces using HTML CSS and Bootstrap. I add interactivity using JavaScript for better experience. I test layouts directly in browsers across devices. I improve usability through continuous visual refinements.",
   },
   {
     id: 4,
     category: "uiux",
-    question: "How do you approach responsive and mobile-first design?",
+    question: "How do you design responsive mobile first interfaces︖",
     answer:
-      "Mobile-first design principles implementation. Flexible grid systems and layouts. Progressive enhancement strategies. Cross-device testing protocols. Performance optimization for mobile.",
+      "I start designing layouts for small screens first. I use Bootstrap grid system for responsiveness. I apply flexible units and scalable typography. I test layouts across different screen sizes. I optimize spacing and usability for touch devices.",
   },
   {
     id: 5,
     category: "uiux",
-    question: "What's your experience with accessibility in design?",
+    question: "How do you implement accessibility focused design practices︖",
     answer:
-      "WCAG 2.1 compliance standards. Screen reader compatibility testing. Color contrast and readability optimization. Keyboard navigation implementation. Accessible form design and validation.",
+      "I use semantic HTML for better accessibility support. I ensure color contrast meets accessibility guidelines. I design clear navigation and readable content flow. I support keyboard navigation in interactive elements. I test usability across different user scenarios.",
   },
-
-  // Frontend Questions (5 questions)
   {
     id: 6,
-    category: "frontend",
-    question: "What's your React development approach for large-scale applications?",
+    category: "uiux",
+    question: "How do you improve user experience through interface design︖",
     answer:
-      "Component-based architecture design. State management with Redux/Context. Performance optimization techniques. Code splitting and lazy loading. Testing with Jest and React Testing Library.",
+      "I simplify layouts to reduce cognitive load. I guide users using visual hierarchy and spacing. I provide clear feedback for user interactions. I optimize page flow for smooth navigation. I continuously refine designs based on user behavior.",
   },
+
+  // Frontend (5)
   {
     id: 7,
     category: "frontend",
-    question: "How do you handle performance optimization in frontend applications?",
+    question: "How do you structure scalable frontend web applications︖",
     answer:
-      "Bundle size optimization and code splitting. Image optimization and lazy loading. Memoization and virtualization techniques. Performance monitoring with Lighthouse. Caching strategies implementation.",
+      "I organize code using modular folder structures. I separate layout logic from functionality clearly. I reuse components to reduce duplication. I manage state using clean JavaScript patterns. I maintain readable and maintainable codebases.",
   },
   {
     id: 8,
     category: "frontend",
-    question: "What's your experience with modern frontend frameworks and tools?",
+    question:
+      "How do you optimize frontend application performance for web applications︖",
     answer:
-      "React with TypeScript for type safety. Next.js for SSR and SSG applications. State management with Zustand/Redux Toolkit. Build tools like Webpack and Vite. Testing frameworks and CI/CD integration.",
+      "I minimize unused CSS and JavaScript files. I optimize images and static asset delivery. I reduce DOM complexity for faster rendering. I use efficient event handling techniques. I test performance using browser developer tools.",
   },
   {
     id: 9,
     category: "frontend",
-    question: "How do you approach frontend testing and quality assurance?",
+    question:
+      "What modern frontend technologies do you frequently use for development︖",
     answer:
-      "Unit testing with Jest and React Testing Library. Integration and E2E testing with Cypress. Cross-browser compatibility testing. Performance and accessibility testing. Continuous integration testing pipelines.",
+      "I work with HTML CSS and modern JavaScript. I use Bootstrap for layout and components. I enhance UI behavior using vanilla JavaScript. I integrate APIs for dynamic content rendering. I ensure cross browser compatibility consistently.",
   },
   {
     id: 10,
     category: "frontend",
-    question: "What's your strategy for responsive web development?",
+    question:
+      "How do you ensure frontend code quality in collaboration enviroment︖",
     answer:
-      "CSS Grid and Flexbox for layouts. Responsive typography and spacing. Mobile-first CSS methodology. Progressive enhancement techniques. Cross-device testing and debugging.",
+      "I follow clean coding standards and naming conventions. I break logic into small reusable functions. I test features manually across multiple browsers. I debug issues using developer tools effectively. I refactor code for long term maintainability.",
   },
-
-  // Backend Questions (6 questions)
   {
     id: 11,
-    category: "backend",
-    question: "What's your approach to building scalable backend APIs with Node.js?",
+    category: "frontend",
+    question:
+      "How do you implement responsive layout systems for diffrent devices︖",
     answer:
-      "RESTful API design and documentation. Authentication and authorization implementation. Database optimization and indexing. Caching strategies with Redis. Error handling and logging systems.",
+      "I use Bootstrap grid and utility classes. I apply media queries for custom responsiveness. I scale typography and spacing across breakpoints. I test layouts on real devices and emulators. I adjust designs to avoid layout shifts.",
   },
+
+  // Backend (5)
   {
     id: 12,
     category: "backend",
-    question: "How do you design and optimize database schemas?",
+    question:
+      "How do you design scalable backend API systems for web applications︖",
     answer:
-      "Normalization and denormalization strategies. Index optimization for query performance. Connection pooling and management. Data migration and versioning. Backup and recovery procedures.",
+      "I design REST APIs with clear endpoint structure. I handle requests and responses efficiently. I validate input data before processing logic. I optimize database queries for performance. I implement proper error handling mechanisms.",
   },
   {
     id: 13,
     category: "backend",
-    question: "What's your experience with microservices architecture?",
+    question: "How do you structure backend web application architecture︖",
     answer:
-      "Service decomposition and boundaries. Inter-service communication patterns. API gateway implementation. Service discovery and load balancing. Distributed tracing and monitoring.",
+      "I separate routes controllers and business logic. I organize files for readability and scalability. I follow consistent naming and coding patterns. I manage environment configuration securely. I refactor code to support future growth.",
   },
   {
     id: 14,
     category: "backend",
-    question: "How do you ensure backend application security?",
+    question: "How do you manage databases efficiently for web applications︖",
     answer:
-      "Input validation and sanitization. SQL injection and XSS prevention. JWT authentication and OAuth 2.0. Rate limiting and DDoS protection. Security headers and HTTPS enforcement.",
-  },
-  {
-    id: 16,
-    category: "backend",
-    question: "What's your DevOps approach for backend services?",
-    answer:
-      "Docker containerization for services. CI/CD pipeline implementation. Cloud deployment on AWS/Azure. Monitoring with Prometheus/Grafana. Infrastructure as code with Terraform.",
+      "I design schemas with proper relationships defined. I optimize queries using indexing strategies. I handle data validation at application level. I manage backups and data recovery planning. I monitor database performance regularly.",
   },
   {
     id: 15,
     category: "backend",
-    question: "How do you handle real-time features in backend systems?",
+    question:
+      "How do you ensure backend security best practices ie web applications︖",
     answer:
-      "WebSocket implementation with Socket.io. Real-time data synchronization. Connection management and scaling. Message queuing with Redis/RabbitMQ. Event-driven architecture patterns.",
+      "I validate all incoming request data strictly. I prevent injection attacks through secure queries. I implement authentication and authorization properly. I apply rate limiting for sensitive endpoints. I protect configuration using environment variables.",
+  },
+  {
+    id: 16,
+    category: "backend",
+    question: "How do you handle real time backend application communication︖",
+    answer:
+      "I use WebSockets for real time data updates. I manage connections efficiently on the server. I handle events using structured message formats. I ensure scalability through proper resource handling. I monitor latency and connection stability.",
   },
 ];
 

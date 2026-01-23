@@ -106,6 +106,12 @@ const data = [
     title: "Git & Collaboration Tools ♻︎",
     desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
   },
+  {
+    id: 14,
+    icon: <SiGit />,
+    title: "Git & Collaboration Tools ♻︎",
+    desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
+  },
 ];
 
 export default data;

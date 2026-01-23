@@ -115,6 +115,14 @@ const certificationsData = [
     months: 1.5,
     icon: <FaGitAlt />,
   },
+  {
+    id: 14,
+    title: "Git & Collaboration Tools | Udemy",
+    desc: "Version control fundamentals. Branching strategies. Pull requests. Code reviews. Team collaboration workflows.",
+    pdf: "#",
+    months: 1.5,
+    icon: <FaGitAlt />,
+  },
 ];
 
 export default certificationsData;

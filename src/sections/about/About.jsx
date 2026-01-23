@@ -30,12 +30,11 @@ const About = () => {
           <p>
             <span className="Rehansdesign">
               ❝ In the silence of focused creation , complex systems become
-              clear ❞
+              clear ! ❞
             </span>{" "}
-            I'm Dar Rehan Rasool, a{" "}
-            <span className="Rehansdesign">Full-Stack Developer </span> with
-            MERN expertise from Srinagar. With 1+ years experience in{" "}
-            <span className="Rehansdesign">end-to-end web development</span>, I
+            I'm Dar Rehan Rasool, a Full-Stack Developer with{" "}
+            <span className="Rehansdesign"> MERN </span> expertise from
+            Srinagar. With 1+ years experience in ,end-to-end web development, I
             build scalable applications where robust architecture meets seamless
             user experiences.
           </p>
