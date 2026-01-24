@@ -1,6 +1,6 @@
-import Image1 from "../../assets/Projects/image-1.png";
-import Image2 from "../../assets/Projects/project2.png";
-import Image3 from "../../assets/Projects/project3.png";
+import Image1 from "../../assets/Projects/almond.png";
+import Image2 from "../../assets/Projects/card.png";
+import Image3 from "../../assets/Projects/git.png";
 
 const data = [
   // ================= FRONTEND =================
@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     category: "Frontend",
-    image: Image1,
+    image: Image2,
     title: "Almond Store Landing Page",
     desc: "Responsive landing page for a shop built using pure HTML, CSS, and JavaScript with clean structure, modern layout, smooth interactions, and mobile-first design principles.",
     demo: "https://youtu.be/kHGevAoQ2zo?si=Wg1WhvwGECZOmvnm",
@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     category: "Frontend",
-    image: Image1,
+    image: Image3,
     title: "Almond Store Landing Page",
     desc: "Responsive landing page for a shop built using pure HTML, CSS, and JavaScript with clean structure, modern layout, smooth interactions, and mobile-first design principles.",
     demo: "https://youtu.be/kHGevAoQ2zo?si=Wg1WhvwGECZOmvnm",
