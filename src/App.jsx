@@ -23,7 +23,6 @@ const App = () => {
   const showFloatingNavHandler = () => {
     setShowFloatingNav(true);
   };
-
   const hideFloatingNavHandler = () => {
     setShowFloatingNav(false);
   };
