@@ -28,20 +28,12 @@
 .Rehansdesign {
   font-weight: bold;
   font-size: 1em;
-  background: linear-gradient(
-    45deg,
-    #db48d8,
-    #a836d8,
-    #cf129d
-  ); /* Softer gradient */
-
-  /* Background Clip for Text */
+  background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
   background-clip: text;
-
-  -webkit-text-fill-color: transparent; /* Gradient text effect */
+  -webkit-text-fill-color: transparent;
   text-transform: lowercase;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
@@ -54,14 +46,12 @@
     height: 100vh;
   }
 }
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
   .services__container {
     gap: 1.5rem;
   }
 }
-
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
   .services__container {

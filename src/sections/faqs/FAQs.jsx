@@ -15,7 +15,7 @@ const FAQs = () => {
       <h2> Frequently Asked Questions</h2>
       <p>
         ➤ common Queries about my work{" "}
-        <span className="Rehansdesign">click</span> to reveal answers 
+        <span className="Rehansdesign">click</span> to reveal answers
       </p>
       <div className="container faqs__container" data-aos="fade-in">
         {faqs.map((faq) => (

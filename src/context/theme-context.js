@@ -1,9 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { createContext, useContext, useReducer, useEffect } from "react";
 import themeReducer from "./themeReducer";
-
 export const ThemeContext = createContext();
-
 // get theme settings from local storage, or use default theme
 const initialThemeState = JSON.parse(localStorage.getItem("themeSettings")) || {
   primary: "color-2",
@@ -13,7 +11,7 @@ const initialThemeState = JSON.parse(localStorage.getItem("themeSettings")) || {
 export const ThemeProvider = ({ children }) => {
   const [themeState, dispatchTheme] = useReducer(
     themeReducer,
-    initialThemeState
+    initialThemeState,
   );
 
   const themeHandler = (buttonClassName) => {

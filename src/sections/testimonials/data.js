@@ -2,25 +2,25 @@ import Avatar1 from "../../assets/avatar/avatar1.jpg";
 import Avatar2 from "../../assets/avatar/avatar2.jpg";
 import Avatar3 from "../../assets/avatar/avatar3.jpg";
 import Avatar4 from "../../assets/avatar/avatar4.jpg";
-import Avatar6 from "../../assets/avatar/avatar6.jpg";
-import Avatar7 from "../../assets/avatar/avatar7.jpg";
-import Avatar8 from "../../assets/avatar/avatar8.png";
-import Avatar9 from "../../assets/avatar/avatar9.png";
-import Avatar10 from "../../assets/avatar/avatar10.png";
+import Avatar5 from "../../assets/avatar/avatar6.jpg";
+import Avatar6 from "../../assets/avatar/avatar7.jpg";
+import Avatar7 from "../../assets/avatar/avatar8.png";
+import Avatar8 from "../../assets/avatar/avatar9.png";
+import Avatar9 from "../../assets/avatar/avatar10.png";
 
 const data = [
   {
     id: 1,
     quote:
       "❝ Rehan delivered our project on time and was responsive to feedback ❞",
-    avatar: Avatar2,
+    avatar: Avatar1,
     name: "Rajesh Kumar 🟢",
     profession: "Small Business Owner",
   },
   {
     id: 2,
     quote: "❝ Good work on our website. The features work as expected ❞",
-    avatar: Avatar1,
+    avatar: Avatar2,
     name: "Priya Sharma 🟢",
     profession: "Blogger",
   },
@@ -42,7 +42,7 @@ const data = [
   {
     id: 5,
     quote: "❝ Fixed our issues efficiently. Reasonable pricing ❞",
-    avatar: Avatar8,
+    avatar: Avatar5,
     name: "Vikram Singh 🟢",
     profession: "Local Shop Owner",
   },
@@ -56,30 +56,23 @@ const data = [
   {
     id: 7,
     quote: "❝ Reliable developer for small to medium projects ❞",
-    avatar: Avatar3,
+    avatar: Avatar7,
     name: "Rahul Verma 🟢",
     profession: "Marketing Manager",
   },
   {
     id: 8,
     quote: "❝ Communicated well throughout the project ❞",
-    avatar: Avatar9,
+    avatar: Avatar8,
     name: "Sunita Rao 🟢",
     profession: "Non-profit Director",
   },
   {
     id: 9,
     quote: "❝ Delivered what was promised. No major complaints ❞",
-    avatar: Avatar10,
+    avatar: Avatar9,
     name: "Deepak Malhotra 🟢",
     profession: "Restaurant Owner",
-  },
-  {
-    id: 10,
-    quote: "❝ Good for basic CRUD applications. Met our requirements ❞",
-    avatar: Avatar7,
-    name: "Pooja Mehta 🟢 ",
-    profession: "Student",
   },
 ];
 

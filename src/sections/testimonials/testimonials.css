@@ -1,53 +1,43 @@
 #testimonials {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
-
 .swiper {
-    height: 30rem;
-    /* this paddint top is to give space for micro interaction on hover of swiper slide */
-    padding-top: 1rem;
+  height: 30rem;
+  padding-top: 1rem;
 }
-
 .swiper-slide {
-    cursor: grab;
+  cursor: grab;
 }
-
 .testimonial__client {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
-
 .testimonial__client-avatar {
-    width: 2.5rem;
-    aspect-ratio: 1/1;
-    border-radius: var(--border-radius-2);
-    overflow: hidden;
-    transition: var(--transition);
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--border-radius-2);
+  overflow: hidden;
+  transition: var(--transition);
 }
-
 .swiper-pagination {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
-
 
 .swiper-pagination-bullet {
-    background: var(--color-primary);
+  background: var(--color-primary);
 }
 .Rehansdesign {
-    font-weight: bold;
-    font-size: 1em;
-    background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d); /* Softer gradient */
-    
-    /* Background Clip for Text */
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -ms-background-clip: text;
-    background-clip: text;
-
-    -webkit-text-fill-color: transparent; /* Gradient text effect */
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(45deg, #db48d8, #a836d8, #cf129d);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
 }

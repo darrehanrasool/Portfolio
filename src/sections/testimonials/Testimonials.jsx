@@ -5,10 +5,8 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
 // import required modules
 import { Pagination } from "swiper";
-
 import testimonials from "./data";
 import Testimonial from "./Testimonial";
 import "./testimonials.css";
@@ -18,8 +16,8 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2> ⚡︎ Testimonials </h2>
       <p>
-         ⌲ These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
-        from some of my clients 
+        ⌲ These are unbiased <span className="Rehansdesign"> testmonials </span>{" "}
+        from some of my clients
       </p>
       <div className="container">
         <Swiper
@@ -46,5 +44,4 @@ const Testimonials = () => {
     </section>
   );
 };
-
 export default Testimonials;
