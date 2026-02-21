@@ -11,6 +11,7 @@ import {
   SiBootstrap,
   SiCypress,
   SiJest,
+  SiPostman, // ✅ Added Postman
 } from "react-icons/si";
 import { FaServer } from "react-icons/fa";
 
@@ -86,25 +87,25 @@ const data = [
     title: "End-to-End Testing ♻︎",
     desc: "Cypress E2E testing. Component testing. CI/CD integration. Test automation workflows.",
   },
+  {
+    id: 11,
+    icon: <SiPostman />,
+    title: "API Testing with Postman ♻︎",
+    desc: "API request testing. Collection management. Automated API testing. Environment variables. Collaboration tools.",
+  },
 
   // DevOps & Deployment
   {
-    id: 11,
+    id: 12,
     icon: <SiDocker />,
     title: "Docker Containerization ♻︎",
     desc: "Docker images and containers. Docker Compose. Multi-stage builds. Environment isolation.",
   },
   {
-    id: 12,
+    id: 13,
     icon: <FaServer />,
     title: "Cloud Deployment & CI/CD ♻︎",
     desc: "AWS and Vercel deployment. GitHub Actions. CI/CD pipelines. Monitoring and scalability.",
-  },
-  {
-    id: 13,
-    icon: <SiGit />,
-    title: "Git & Collaboration Tools ♻︎",
-    desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
   },
   {
     id: 14,
