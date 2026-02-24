@@ -1,9 +1,9 @@
-import Image1 from "../../assets/Projects/Medical.png";
-import Image2 from "../../assets/Projects/Git.png";
-import Image3 from "../../assets/Projects/Almond.png";
-import Image4 from "../../assets/Projects/Card.png";
-import Image5 from "../../assets/Projects/Portfolio.png";
-import Image6 from "../../assets/Projects/Herbalist.png";
+import Image1 from "../../assets/Projects/projectmedical.png";
+import Image2 from "../../assets/Projects/projectgit.png";
+import Image3 from "../../assets/Projects/projectalmond.png";
+import Image4 from "../../assets/Projects/projectcard.png";
+import Image5 from "../../assets/Projects/projectportfolio.png";
+import Image6 from "../../assets/Projects/projectherbalist.png";
 
 const data = [
   // ================= FRONTEND =================
