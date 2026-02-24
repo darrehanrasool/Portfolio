@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.145ff96d.css",
-    "main.js": "/static/js/main.22c7c482.js",
+    "main.js": "/static/js/main.32d8caab.js",
     "static/media/Card.png": "/static/media/Card.7064e4022f2df346795c.png",
     "static/media/Header1.png": "/static/media/Header1.fc0dc63546b706d8bdfb.png",
     "static/media/Herbalist.png": "/static/media/Herbalist.0da25f1fcddd5bca1844.png",
@@ -18,10 +18,10 @@
     "static/media/avatar6.jpg": "/static/media/avatar6.8fbcd9d41881b442663e.jpg",
     "index.html": "/index.html",
     "main.145ff96d.css.map": "/static/css/main.145ff96d.css.map",
-    "main.22c7c482.js.map": "/static/js/main.22c7c482.js.map"
+    "main.32d8caab.js.map": "/static/js/main.32d8caab.js.map"
   },
   "entrypoints": [
     "static/css/main.145ff96d.css",
-    "static/js/main.22c7c482.js"
+    "static/js/main.32d8caab.js"
   ]
 }
