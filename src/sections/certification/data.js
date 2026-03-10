@@ -1,13 +1,4 @@
-import {
-  FaReact,
-  FaNodeJs,
-  FaDatabase,
-  FaJs,
-  FaAws,
-  FaDocker,
-  FaGitAlt,
-  FaServer,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase, FaJs, FaGitAlt } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 
 const certificationsData = [
@@ -53,30 +44,6 @@ const certificationsData = [
   },
   {
     id: 6,
-    title: "TypeScript Development Certification",
-    desc: "Applied static typing, interfaces, and generics in scalable applications. Integrated TypeScript with frontend and backend systems.",
-    pdf: "#",
-    months: "2-3",
-    icon: <FaJs />,
-  },
-  {
-    id: 7,
-    title: "PostgreSQL Database Certification",
-    desc: "Designed relational schemas and optimized SQL queries. Ensured data integrity and performance through indexing strategies.",
-    pdf: "#",
-    months: "2-3",
-    icon: <FaDatabase />,
-  },
-  {
-    id: 8,
-    title: "GraphQL API Development Certification",
-    desc: "Designed schemas and resolvers for efficient data fetching. Implemented optimized API communication with modern backend systems.",
-    pdf: "#",
-    months: "2-3",
-    icon: <FaServer />,
-  },
-  {
-    id: 9,
     title: "Jest Testing Certification",
     desc: "Implemented unit and integration testing strategies. Applied mocking techniques and maintained strong test coverage.",
     pdf: "#",
@@ -84,7 +51,7 @@ const certificationsData = [
     icon: <FaJs />,
   },
   {
-    id: 10,
+    id: 7,
     title: "Cypress End-to-End Testing Certification",
     desc: "Built automated E2E testing workflows. Validated user interaction scenarios and integrated testing into CI/CD pipelines.",
     pdf: "#",
@@ -92,7 +59,7 @@ const certificationsData = [
     icon: <FaJs />,
   },
   {
-    id: 11,
+    id: 8,
     title: "Postman API Testing Certification",
     desc: "Tested REST APIs using collections and environments. Automated request validation and documented backend services.",
     pdf: "#",
@@ -100,23 +67,15 @@ const certificationsData = [
     icon: <SiPostman />,
   },
   {
-    id: 12,
-    title: "Docker & Containerization Certification",
-    desc: "Created containerized applications using Docker and Compose. Managed multi-stage builds and environment isolation.",
+    id: 9,
+    title: "PostgreSQL Database Certification",
+    desc: "Designed relational schemas and optimized SQL queries. Ensured data integrity and performance through indexing strategies.",
     pdf: "#",
     months: "2-3",
-    icon: <FaDocker />,
+    icon: <FaDatabase />,
   },
   {
-    id: 13,
-    title: "Cloud Deployment & CI/CD Certification",
-    desc: "Deployed applications on cloud platforms. Configured automated CI/CD pipelines and monitored scalable infrastructure.",
-    pdf: "#",
-    months: "2-3",
-    icon: <FaAws />,
-  },
-  {
-    id: 14,
+    id: 10,
     title: "Git & Version Control Certification",
     desc: "Applied branching strategies and collaborative workflows. Managed pull requests, reviews, and structured version control practices.",
     pdf: "#",

@@ -4,16 +4,12 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
-  SiDocker,
   SiGit,
-  SiGraphql,
-  SiTypescript,
   SiBootstrap,
   SiCypress,
   SiJest,
   SiPostman, // ✅ Added Postman
 } from "react-icons/si";
-import { FaServer } from "react-icons/fa";
 
 const data = [
   // Core Web Technologies
@@ -53,62 +49,33 @@ const data = [
     title: "Next.js Framework ♻︎",
     desc: "App Router architecture. Server-side rendering (SSR). Static site generation (SSG). API routes. Middleware.",
   },
-
-  // Language & APIs
-  {
-    id: 6,
-    icon: <SiTypescript />,
-    title: "TypeScript Development ♻︎",
-    desc: "Type safety. Interface design. Generics. Advanced types. Scalable React and Node.js integration.",
-  },
-  {
-    id: 7,
-    icon: <SiPostgresql />,
-    title: "PostgreSQL Database ♻︎",
-    desc: "Relational modeling. Complex SQL queries. Performance tuning. ACID compliance. ORM tools.",
-  },
-  {
-    id: 8,
-    icon: <SiGraphql />,
-    title: "GraphQL API Development ♻︎",
-    desc: "Schema design. Resolver implementation. Apollo ecosystem. Performance optimization. Real-time features.",
-  },
-
   // Testing
   {
-    id: 9,
+    id: 6,
     icon: <SiJest />,
     title: "Unit & Integration Testing ♻︎",
     desc: "Jest framework. React Testing Library. Mocking strategies. Snapshot testing. Coverage reporting.",
   },
   {
-    id: 10,
+    id: 7,
     icon: <SiCypress />,
     title: "End-to-End Testing ♻︎",
     desc: "Cypress E2E testing. Component testing. CI/CD integration. Test automation workflows.",
   },
   {
-    id: 11,
+    id: 8,
     icon: <SiPostman />,
     title: "API Testing with Postman ♻︎",
     desc: "API request testing. Collection management. Automated API testing. Environment variables. Collaboration tools.",
   },
-
-  // DevOps & Deployment
   {
-    id: 12,
-    icon: <SiDocker />,
-    title: "Docker Containerization ♻︎",
-    desc: "Docker images and containers. Docker Compose. Multi-stage builds. Environment isolation.",
+    id: 9,
+    icon: <SiPostgresql />,
+    title: "PostgreSQL Database ♻︎",
+    desc: "Relational modeling. Complex SQL queries. Performance tuning. ACID compliance. ORM tools.",
   },
   {
-    id: 13,
-    icon: <FaServer />,
-    title: "Cloud Deployment & CI/CD ♻︎",
-    desc: "AWS and Vercel deployment. GitHub Actions. CI/CD pipelines. Monitoring and scalability.",
-  },
-  {
-    id: 14,
+    id: 10,
     icon: <SiGit />,
     title: "Git & Collaboration Tools ♻︎",
     desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
