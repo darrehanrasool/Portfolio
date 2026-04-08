@@ -1,5 +1,12 @@
-import { FaReact, FaNodeJs, FaDatabase, FaJs, FaGitAlt } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaJs,
+  FaGitAlt,
+  FaDocker,
+} from "react-icons/fa";
+import { SiPostman, SiJira } from "react-icons/si";
 
 const certificationsData = [
   {
@@ -81,6 +88,22 @@ const certificationsData = [
     pdf: "#",
     months: "2-3",
     icon: <FaGitAlt />,
+  },
+  {
+    id: 11,
+    title: "Jira Project Management Certification",
+    desc: "Managed agile workflows using Jira. Created and tracked issues, sprints, and backlogs while collaborating effectively within development teams.",
+    pdf: "#",
+    months: "1-2",
+    icon: <SiJira />,
+  },
+  {
+    id: 12,
+    title: "Docker & Containerization Certification",
+    desc: "Containerized applications using Docker. Built images, managed containers, and streamlined deployment workflows for scalable applications.",
+    pdf: "#",
+    months: "1-2",
+    icon: <FaDocker />,
   },
 ];
 

@@ -8,7 +8,9 @@ import {
   SiBootstrap,
   SiCypress,
   SiJest,
-  SiPostman, // ✅ Added Postman
+  SiPostman,
+  SiJira,
+  SiDocker,
 } from "react-icons/si";
 
 const data = [
@@ -49,6 +51,7 @@ const data = [
     title: "Next.js Framework ♻︎",
     desc: "App Router architecture. Server-side rendering (SSR). Static site generation (SSG). API routes. Middleware.",
   },
+
   // Testing
   {
     id: 6,
@@ -68,6 +71,8 @@ const data = [
     title: "API Testing with Postman ♻︎",
     desc: "API request testing. Collection management. Automated API testing. Environment variables. Collaboration tools.",
   },
+
+  // Database & Version Control
   {
     id: 9,
     icon: <SiPostgresql />,
@@ -79,6 +84,20 @@ const data = [
     icon: <SiGit />,
     title: "Git & Collaboration Tools ♻︎",
     desc: "Version control workflows. Branching strategies. Pull requests. Code reviews. Team collaboration.",
+  },
+
+  // New Additions
+  {
+    id: 11,
+    icon: <SiJira />,
+    title: "Jira Project Management ♻︎",
+    desc: "Agile workflow management. Sprint planning. Issue tracking. Backlog prioritization. Team collaboration.",
+  },
+  {
+    id: 12,
+    icon: <SiDocker />,
+    title: "Docker & Containerization ♻︎",
+    desc: "Containerized applications. Docker images & containers. Environment consistency. Deployment optimization.",
   },
 ];
 
