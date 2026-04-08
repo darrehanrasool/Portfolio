@@ -4,12 +4,12 @@ import { BiHappyHeartEyes } from "react-icons/bi";
 
 const data = [
   { id: 1, icon: <FaAward />, title: "Experience", desc: "1+ Years Working" },
-  { id: 2, icon: <TbBooks />, title: "Projects", desc: "18+ Completed" },
+  { id: 2, icon: <TbBooks />, title: "Projects", desc: "8+ Completed" },
   {
     id: 3,
     icon: <BiHappyHeartEyes />,
-    title: "Omicgene",
-    desc: "Research ",
+    title: "Building",
+    desc: "Omicgene",
   },
 ];
 
