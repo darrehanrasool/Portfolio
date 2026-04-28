@@ -11,7 +11,6 @@ const Header = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-
   return (
     <header id="header">
       <div className="container header__container">
@@ -50,5 +49,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
