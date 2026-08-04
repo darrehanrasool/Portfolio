@@ -45,5 +45,4 @@ const data = [
     github: "#",
   },
 ];
-
 export default data;
