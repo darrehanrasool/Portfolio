@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import AboutImage from "../../assets/Rehan/About1.jpg";
 import CV from "../../assets/certifications/resume.pdf";
-import CoverLetter from "../../assets/certifications/letter.pdf"; // Add your cover letter file
+import CoverLetter from "../../assets/certifications/letter.PDF"; // Add your cover letter file
 import { HiDownload } from "react-icons/hi";
 import data from "./data";
 import Card from "../../components/Card";
